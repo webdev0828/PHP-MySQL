@@ -1,0 +1,1487 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: The WP WordPress Theme\n"
+"POT-Creation-Date: 2017-06-18 23:11+0300\n"
+"PO-Revision-Date: 2015-08-26 17:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: CeeWP.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_x;_ex;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:36 comments.php:57
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39 comments.php:60
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:61
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:85
+msgid "Name"
+msgstr ""
+
+#: comments.php:91 inc/admin/widget-social-icons.php:79
+#: inc/options-config.php:372 inc/options-config.php:378
+#: inc/options-config.php:385
+msgid "Email"
+msgstr ""
+
+#: comments.php:97
+msgid "Website"
+msgstr ""
+
+#: comments.php:104
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:106
+msgid "Comment"
+msgstr ""
+
+#: comments.php:109
+msgid "Cancel reply"
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:21 inc/template-tags.php:54 inc/template-tags.php:225
+#: inc/template-tags.php:238
+msgid "Edit"
+msgstr ""
+
+#: content-page.php:29 content-single.php:27 content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: content.php:27 inc/admin/widget-cta.php:97 inc/options-config.php:129
+#: inc/options-config.php:546 inc/options-config.php:547
+#: inc/slider-functions.php:18 inc/template-tags.php:490
+msgid "Read more..."
+msgstr ""
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:65 inc/options-config.php:722
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:155 inc/options-config.php:249 inc/options-config.php:316
+#: inc/options-config.php:325 inc/options-config.php:437
+msgid "Header"
+msgstr ""
+
+#: functions.php:165 functions.php:174
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:165 functions.php:221 inc/options-config.php:298
+msgid "Right"
+msgstr ""
+
+#: functions.php:174 functions.php:203 inc/options-config.php:297
+msgid "Left"
+msgstr ""
+
+#: functions.php:184
+msgid "Front page"
+msgstr ""
+
+#: functions.php:194 functions.php:203 functions.php:212 functions.php:221
+#: inc/options-config.php:705 inc/options-config.php:728
+#: inc/options-config.php:734 inc/options-config.php:740
+msgid "Footer"
+msgstr ""
+
+#: functions.php:194 inc/options-config.php:437 inc/options-config.php:438
+msgid "Full Size"
+msgstr ""
+
+#: functions.php:212 inc/options-config.php:296 inc/options-config.php:308
+msgid "Center"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:79
+msgid "Menu"
+msgstr ""
+
+#: header.php:81
+msgid "Close"
+msgstr ""
+
+#: inc/admin/class-custom-controls.php:15
+#: inc/admin/class-custom-controls.php:42
+msgid "Upgrade"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:90 inc/options-config.php:747
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:92
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:95
+msgid "Support Forums"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:98
+msgid "Donate"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:101
+msgid "Feedback"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:104
+#, php-format
+msgid "Howdy, %1$s"
+msgstr ""
+
+#: inc/admin/class-customizer-api-wrapper.php:104
+msgid "If you like this theme, I would appreciate any of the following:"
+msgstr ""
+
+#: inc/admin/helpers.php:317
+msgid "Select Post"
+msgstr ""
+
+#: inc/admin/icons.php:18
+msgid "Web Application"
+msgstr ""
+
+#: inc/admin/icons.php:19
+msgid "Hand Icons"
+msgstr ""
+
+#: inc/admin/icons.php:20
+msgid "Transportation"
+msgstr ""
+
+#: inc/admin/icons.php:21
+msgid "Gender"
+msgstr ""
+
+#: inc/admin/icons.php:22
+msgid "File Type"
+msgstr ""
+
+#: inc/admin/icons.php:23
+msgid "Spinner"
+msgstr ""
+
+#: inc/admin/icons.php:24
+msgid "Form Control"
+msgstr ""
+
+#: inc/admin/icons.php:25
+msgid "Payment"
+msgstr ""
+
+#: inc/admin/icons.php:26
+msgid "Chart"
+msgstr ""
+
+#: inc/admin/icons.php:27
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/icons.php:28
+msgid "Text Editor"
+msgstr ""
+
+#: inc/admin/icons.php:29
+msgid "Directional"
+msgstr ""
+
+#: inc/admin/icons.php:30
+msgid "Video Player"
+msgstr ""
+
+#: inc/admin/icons.php:31
+msgid "Brand"
+msgstr ""
+
+#: inc/admin/icons.php:32
+msgid "Medical"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:18 inc/admin/widget-content-blocks.php:18
+#: inc/admin/widget-cta.php:18 inc/admin/widget-social-icons.php:18
+#: inc/admin/widget-space.php:18 inc/admin/widget-stats.php:18
+#: inc/admin/widget-text-rotator.php:18
+msgid "The WP"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:18 inc/admin/widget-buttons.php:75
+msgid "Buttons"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:22
+msgid "Display colored call to action buttons with icons"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:33 inc/admin/widget-content-blocks.php:45
+#: inc/admin/widget-content-blocks.php:153
+#: inc/admin/widget-content-blocks.php:171 inc/admin/widget-stats.php:33
+#: inc/options-config.php:100 inc/options-config.php:193
+msgid "Title"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:38 inc/admin/widget-content-blocks.php:51
+#: inc/admin/widget-cta.php:73 inc/admin/widget-cta.php:78
+#: inc/admin/widget-social-icons.php:33 inc/admin/widget-space.php:40
+#: inc/admin/widget-stats.php:38 inc/admin/widget-stats.php:105
+#: inc/options-config.php:106
+msgid "Description"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:43 inc/options-config.php:217
+#: inc/options-config.php:533
+msgid "Size"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:48 inc/admin/widget-social-icons.php:50
+#: inc/admin/widget-stats.php:48
+msgid "Small"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:49 inc/admin/widget-social-icons.php:51
+#: inc/admin/widget-stats.php:49
+msgid "Medium"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:50 inc/admin/widget-social-icons.php:52
+#: inc/admin/widget-stats.php:50
+msgid "Large"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:51 inc/admin/widget-social-icons.php:53
+#: inc/admin/widget-stats.php:51
+msgid "Huge"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:55 inc/admin/widget-content-blocks.php:109
+#: inc/admin/widget-cta.php:122 inc/admin/widget-stats.php:55
+msgid "Custom Background"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:60 inc/admin/widget-content-blocks.php:114
+#: inc/admin/widget-cta.php:127 inc/admin/widget-stats.php:60
+msgid "Choose a Background Image"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:65 inc/admin/widget-content-blocks.php:119
+#: inc/admin/widget-cta.php:132 inc/admin/widget-stats.php:65
+msgid "Background image with parallax scrolling"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:70 inc/admin/widget-content-blocks.php:124
+#: inc/admin/widget-content-blocks.php:188 inc/admin/widget-cta.php:107
+#: inc/admin/widget-cta.php:137 inc/admin/widget-social-icons.php:40
+#: inc/admin/widget-space.php:45 inc/admin/widget-stats.php:70
+#: inc/admin/widget-text-rotator.php:111 inc/options-config.php:496
+#: inc/options-config.php:596 inc/options-config.php:613
+#: inc/options-config.php:619 inc/options-config.php:625
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:79 inc/options-config.php:128
+msgid "Button"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:83 inc/admin/widget-cta.php:53
+#: inc/admin/widget-cta.php:68 inc/admin/widget-cta.php:83
+#: inc/admin/widget-text-rotator.php:106
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:88 inc/options-config.php:316
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:93
+msgid "Text"
+msgstr ""
+
+#: inc/admin/widget-buttons.php:99 inc/admin/widget-content-blocks.php:183
+#: inc/admin/widget-cta.php:100 inc/options-config.php:366
+#: inc/options-config.php:385 inc/options-config.php:403
+#: inc/options-config.php:421 inc/options-config.php:734
+msgid "Custom Link"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:18
+msgid "Content Blocks"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:22
+msgid "Display Styled Content Blocks."
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:33 inc/options-config.php:75
+msgid "Style"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:48 inc/options-config.php:102
+#: inc/slider-functions.php:14
+msgid "Just write."
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:57
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:62
+msgid "One Column"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:63
+msgid "Two Columns"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:64
+msgid "Three Columns"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:65
+msgid "Four Columns"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:66
+msgid "Five Columns"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:70
+msgid "Icon Style"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:71
+msgid "Not applicable if Featured Image is seected below."
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:76
+#: inc/admin/widget-content-blocks.php:89
+#: inc/admin/widget-content-blocks.php:92
+#: inc/admin/widget-content-blocks.php:93
+#: inc/admin/widget-content-blocks.php:94
+#: inc/admin/widget-content-blocks.php:95 inc/admin/widget-cta.php:167
+#: inc/admin/widget-cta.php:170 inc/admin/widget-cta.php:171
+#: inc/admin/widget-cta.php:172 inc/admin/widget-cta.php:173
+#: inc/options-config.php:174
+msgid "None"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:77
+msgid "Circle"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:78
+msgid "Square"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:82 inc/admin/widget-cta.php:159
+msgid "Border"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:87
+#: inc/admin/widget-content-blocks.php:88
+#: inc/admin/widget-content-blocks.php:89
+#: inc/admin/widget-content-blocks.php:90
+#: inc/admin/widget-content-blocks.php:91
+#: inc/admin/widget-content-blocks.php:92
+#: inc/admin/widget-content-blocks.php:93
+#: inc/admin/widget-content-blocks.php:94
+#: inc/admin/widget-content-blocks.php:95 inc/admin/widget-cta.php:165
+#: inc/admin/widget-cta.php:166 inc/admin/widget-cta.php:167
+#: inc/admin/widget-cta.php:168 inc/admin/widget-cta.php:169
+#: inc/admin/widget-cta.php:170 inc/admin/widget-cta.php:171
+#: inc/admin/widget-cta.php:172 inc/admin/widget-cta.php:173
+#: inc/options-config.php:152 inc/options-config.php:306
+#: inc/options-config.php:342 inc/options-config.php:584
+msgid "Top"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:87
+#: inc/admin/widget-content-blocks.php:88
+#: inc/admin/widget-content-blocks.php:89
+#: inc/admin/widget-content-blocks.php:90
+#: inc/admin/widget-content-blocks.php:93 inc/admin/widget-cta.php:165
+#: inc/admin/widget-cta.php:166 inc/admin/widget-cta.php:167
+#: inc/admin/widget-cta.php:168 inc/admin/widget-cta.php:171
+msgid "Line"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:87
+#: inc/admin/widget-content-blocks.php:88
+#: inc/admin/widget-content-blocks.php:89
+#: inc/admin/widget-content-blocks.php:90
+#: inc/admin/widget-content-blocks.php:91
+#: inc/admin/widget-content-blocks.php:92
+#: inc/admin/widget-content-blocks.php:93
+#: inc/admin/widget-content-blocks.php:94
+#: inc/admin/widget-content-blocks.php:95 inc/admin/widget-cta.php:165
+#: inc/admin/widget-cta.php:166 inc/admin/widget-cta.php:167
+#: inc/admin/widget-cta.php:168 inc/admin/widget-cta.php:169
+#: inc/admin/widget-cta.php:170 inc/admin/widget-cta.php:171
+#: inc/admin/widget-cta.php:172 inc/admin/widget-cta.php:173
+#: inc/options-config.php:158 inc/options-config.php:307
+#: inc/options-config.php:348
+msgid "Bottom"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:88
+#: inc/admin/widget-content-blocks.php:90
+#: inc/admin/widget-content-blocks.php:91
+#: inc/admin/widget-content-blocks.php:92
+#: inc/admin/widget-content-blocks.php:94 inc/admin/widget-cta.php:166
+#: inc/admin/widget-cta.php:168 inc/admin/widget-cta.php:169
+#: inc/admin/widget-cta.php:170 inc/admin/widget-cta.php:172
+msgid "DoubleLine"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:99
+msgid "Use Featured Image of page instead of icons."
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:104
+msgid ""
+"Display excerpt instead of full content (Read More link will be "
+"automatically used instead of Custom URLs below)"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:129
+msgid "Content Boxes"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:138
+msgid "Content Box"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:142
+#: inc/admin/widget-content-blocks.php:147 inc/admin/widget-cta.php:33
+#: inc/admin/widget-social-icons.php:61 inc/options-config.php:181
+#: inc/options-config.php:211 inc/options-config.php:260
+msgid "Icon"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:143
+msgid "Not applicable if Featured Image is selected above."
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:147
+#: inc/admin/widget-content-blocks.php:153 inc/options-config.php:231
+#: inc/options-config.php:360 inc/options-config.php:378
+#: inc/options-config.php:379 inc/options-config.php:397
+#: inc/options-config.php:415 inc/options-config.php:716
+#: inc/options-config.php:722
+msgid "Color"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:159 inc/options-config.php:631
+msgid "Text color"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:165 inc/template-tags.php:282
+msgid "Page"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:171
+#: inc/admin/widget-content-blocks.php:175
+#: inc/admin/widget-content-blocks.php:179
+#: inc/admin/widget-content-blocks.php:183
+msgid "Optional"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:175
+msgid "Alternative Text"
+msgstr ""
+
+#: inc/admin/widget-content-blocks.php:179
+msgid "Link Text"
+msgstr ""
+
+#: inc/admin/widget-cta.php:18
+msgid "Call To Action"
+msgstr ""
+
+#: inc/admin/widget-cta.php:22
+msgid "Display Call To Action block."
+msgstr ""
+
+#: inc/admin/widget-cta.php:38
+msgid "Select Color"
+msgstr ""
+
+#: inc/admin/widget-cta.php:43 inc/admin/widget-cta.php:48
+msgid "Headline"
+msgstr ""
+
+#: inc/admin/widget-cta.php:58 inc/admin/widget-cta.php:63
+msgid "Subline"
+msgstr ""
+
+#: inc/admin/widget-cta.php:88
+msgid "Link URL"
+msgstr ""
+
+#: inc/admin/widget-cta.php:93
+msgid "Button Text"
+msgstr ""
+
+#: inc/admin/widget-cta.php:94 inc/admin/widget-cta.php:101
+msgid "Leave empty if you dont want to show button"
+msgstr ""
+
+#: inc/admin/widget-cta.php:112
+msgid "Image File"
+msgstr ""
+
+#: inc/admin/widget-cta.php:117
+msgid "Select Image"
+msgstr ""
+
+#: inc/admin/widget-cta.php:142 inc/options-config.php:764
+msgid "More Actions"
+msgstr ""
+
+#: inc/admin/widget-cta.php:147 inc/options-config.php:112
+msgid "Alignment"
+msgstr ""
+
+#: inc/admin/widget-cta.php:148
+msgid "Image default align"
+msgstr ""
+
+#: inc/admin/widget-cta.php:153
+msgid "No alignment"
+msgstr ""
+
+#: inc/admin/widget-cta.php:154 inc/options-config.php:116
+msgid "Align left"
+msgstr ""
+
+#: inc/admin/widget-cta.php:155 inc/options-config.php:117
+msgid "Align right"
+msgstr ""
+
+#: inc/admin/widget-cta.php:160
+msgid "Top and bottom borders."
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:18 inc/admin/widget-social-icons.php:57
+msgid "Social Icons"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:22
+msgid "Display Social Icons"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:37
+msgid "Follow me on these social networks:"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:45 inc/admin/widget-stats.php:43
+msgid "Icon Size"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:65
+msgid "Social Icon"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:69
+msgid "Amazon"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:70
+msgid "Behance"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:71
+msgid "Bitbucket"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:72
+msgid "BTC"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:73
+msgid "Codepen"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:74
+msgid "Delicious"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:75
+msgid "Deviantart"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:76
+msgid "Digg"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:77
+msgid "Dribbble"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:78
+msgid "Dropbox"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:80
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:81
+msgid "Flickr"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:82
+msgid "Foursquare"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:83
+msgid "Github"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:84
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:85
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:86
+msgid "JS Fiddle"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:87
+msgid "Last FM"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:88
+msgid "Linkedin"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:89
+msgid "Mixcloud"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:90
+msgid "Paypal"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:91
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:92
+msgid "Reddit"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:93
+msgid "RSS"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:94
+msgid "Scribd"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:95
+msgid "Skype"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:96
+msgid "Slack"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:97
+msgid "Slideshare"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:98
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:99
+msgid "Spotify"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:100
+msgid "Stack Exchange"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:101
+msgid "Stack Overflow"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:102
+msgid "Steam"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:103
+msgid "Stumbleupon"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:104
+msgid "Trello"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:105
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:106
+msgid "Tumblr"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:107
+msgid "Twitch"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:108
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:109
+msgid "Vimeo"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:110
+msgid "Wikipedia"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:111
+msgid "WordPress"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:112
+msgid "Xing"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:113
+msgid "Y Combinator"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:114
+msgid "Yelp"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:115
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/widget-social-icons.php:119
+msgid "URL"
+msgstr ""
+
+#: inc/admin/widget-space.php:18
+msgid "Space"
+msgstr ""
+
+#: inc/admin/widget-space.php:22
+msgid "Add blank spaces with custom height between widgets"
+msgstr ""
+
+#: inc/admin/widget-space.php:33 inc/options-config.php:325
+msgid "Height"
+msgstr ""
+
+#: inc/admin/widget-stats.php:18 inc/admin/widget-stats.php:75
+msgid "Stats"
+msgstr ""
+
+#: inc/admin/widget-stats.php:22
+msgid "Display stat numbers with icons"
+msgstr ""
+
+#: inc/admin/widget-stats.php:84
+msgid "Stat"
+msgstr ""
+
+#: inc/admin/widget-stats.php:98
+msgid "Number"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:18
+msgid "Text Rotator"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:22
+msgid "Add a simple rotating/ticking text widgets"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:33
+msgid "Before"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:40
+msgid "Rotating text"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:41
+msgid ""
+"Separate terms with commas. You want to ticker, just fill in this field."
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:48
+msgid "After"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:55 inc/options-config.php:123
+msgid "Link"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:61
+msgid "Animation"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:66
+msgid "flip"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:67
+msgid "flipUp"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:68
+msgid "flipCube"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:69
+msgid "flipCubeUp"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:70
+msgid "spin"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:74
+msgid "Formatting"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:79
+msgid "Font Sizes"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:86
+msgid "Underline"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:91
+msgid "Italic"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:96
+msgid "Bold"
+msgstr ""
+
+#: inc/admin/widget-text-rotator.php:101
+msgid "Blockquote"
+msgstr ""
+
+#: inc/extras.php:53
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/options-config.php:4 inc/options-config.php:471
+msgid "Site Title"
+msgstr ""
+
+#: inc/options-config.php:5
+msgid "Tagline"
+msgstr ""
+
+#: inc/options-config.php:6 inc/options-config.php:559
+msgid "Main menu"
+msgstr ""
+
+#: inc/options-config.php:15
+msgid "Font Size"
+msgstr ""
+
+#: inc/options-config.php:26
+msgid "Enable this section"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:40
+msgid "Navigation"
+msgstr ""
+
+#: inc/options-config.php:45
+msgid "Controllers"
+msgstr ""
+
+#: inc/options-config.php:51
+msgid "Arrows"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:64
+#: inc/options-config.php:321 inc/options-config.php:429
+#: inc/options-config.php:432 inc/options-config.php:491
+msgid "Layout"
+msgstr ""
+
+#: inc/options-config.php:67 inc/options-config.php:479
+#: inc/options-config.php:583
+msgid "Default"
+msgstr ""
+
+#: inc/options-config.php:68
+msgid "Widescreen"
+msgstr ""
+
+#: inc/options-config.php:69
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/options-config.php:80
+msgid "Clear formatting"
+msgstr ""
+
+#: inc/options-config.php:89 inc/options-config.php:644
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:95
+msgid "Image"
+msgstr ""
+
+#: inc/options-config.php:95 inc/options-config.php:254
+#: inc/options-config.php:638 inc/options-config.php:728
+msgid "Suggested image dimensions:"
+msgstr ""
+
+#: inc/options-config.php:115
+msgid "Align center"
+msgstr ""
+
+#: inc/options-config.php:135
+msgid "Button Color"
+msgstr ""
+
+#: inc/options-config.php:147
+msgid "Show"
+msgstr ""
+
+#: inc/options-config.php:164
+msgid "Number of links to show:"
+msgstr ""
+
+#: inc/options-config.php:186 inc/options-config.php:563
+msgid "Activate"
+msgstr ""
+
+#: inc/options-config.php:199
+msgid "Web Address"
+msgstr ""
+
+#: inc/options-config.php:204
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/options-config.php:219
+msgid "1x"
+msgstr ""
+
+#: inc/options-config.php:220
+msgid "2x"
+msgstr ""
+
+#: inc/options-config.php:221
+msgid "3x"
+msgstr ""
+
+#: inc/options-config.php:222
+msgid "4x"
+msgstr ""
+
+#: inc/options-config.php:223
+msgid "5x"
+msgstr ""
+
+#: inc/options-config.php:245
+msgid "The WP Options"
+msgstr ""
+
+#: inc/options-config.php:254 inc/options-config.php:728
+#: inc/options-config.php:734
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:260
+msgid "Remove Image"
+msgstr ""
+
+#: inc/options-config.php:265
+msgid "Background Image"
+msgstr ""
+
+#: inc/options-config.php:270
+msgid "Background Size"
+msgstr ""
+
+#: inc/options-config.php:272
+msgid "Contain"
+msgstr ""
+
+#: inc/options-config.php:273
+msgid "Cover"
+msgstr ""
+
+#: inc/options-config.php:274
+msgid "100% x 100%"
+msgstr ""
+
+#: inc/options-config.php:275
+msgid "Auto"
+msgstr ""
+
+#: inc/options-config.php:281
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/options-config.php:283
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/options-config.php:284
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/options-config.php:285
+msgid "Tile"
+msgstr ""
+
+#: inc/options-config.php:286
+msgid "No Repeat"
+msgstr ""
+
+#: inc/options-config.php:292 inc/options-config.php:304
+msgid "Background Position"
+msgstr ""
+
+#: inc/options-config.php:292
+msgid "X"
+msgstr ""
+
+#: inc/options-config.php:304
+msgid "Y"
+msgstr ""
+
+#: inc/options-config.php:325 inc/options-config.php:331
+#: inc/options-config.php:443 inc/options-config.php:589
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: inc/options-config.php:331
+msgid "Vertical space"
+msgstr ""
+
+#: inc/options-config.php:337 inc/options-config.php:716
+msgid "Contact Info"
+msgstr ""
+
+#: inc/options-config.php:354 inc/options-config.php:360
+#: inc/options-config.php:366
+msgid "Address"
+msgstr ""
+
+#: inc/options-config.php:391 inc/options-config.php:397
+#: inc/options-config.php:403
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:409 inc/options-config.php:415
+#: inc/options-config.php:421
+msgid "Hours"
+msgstr ""
+
+#: inc/options-config.php:410 inc/template-tags.php:324
+msgid "Monday"
+msgstr ""
+
+#: inc/options-config.php:410 inc/template-tags.php:324
+msgid "Friday"
+msgstr ""
+
+#: inc/options-config.php:436 inc/options-config.php:437
+#: inc/options-config.php:443
+msgid "Fixed Layout"
+msgstr ""
+
+#: inc/options-config.php:443
+msgid "Site Size"
+msgstr ""
+
+#: inc/options-config.php:449
+msgid "Disable layout drop-shadow"
+msgstr ""
+
+#: inc/options-config.php:457
+msgid "Typography"
+msgstr ""
+
+#: inc/options-config.php:461
+msgid "Colors"
+msgstr ""
+
+#: inc/options-config.php:465
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options-config.php:477
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/options-config.php:480
+msgid "Light"
+msgstr ""
+
+#: inc/options-config.php:481
+msgid "Blue"
+msgstr ""
+
+#: inc/options-config.php:482
+msgid "Coffee"
+msgstr ""
+
+#: inc/options-config.php:483
+msgid "Ectoplasm"
+msgstr ""
+
+#: inc/options-config.php:484
+msgid "Midnight"
+msgstr ""
+
+#: inc/options-config.php:485
+msgid "Ocean"
+msgstr ""
+
+#: inc/options-config.php:486
+msgid "Sunrise"
+msgstr ""
+
+#: inc/options-config.php:502 inc/options-config.php:602
+msgid "Opacity"
+msgstr ""
+
+#: inc/options-config.php:516
+msgid "General"
+msgstr ""
+
+#: inc/options-config.php:519
+msgid "Front page displays"
+msgstr ""
+
+#: inc/options-config.php:524
+msgid "Your latest posts"
+msgstr ""
+
+#: inc/options-config.php:529 inc/options-config.php:533
+msgid "Excerpt"
+msgstr ""
+
+#: inc/options-config.php:540
+msgid "After excerpt"
+msgstr ""
+
+#: inc/options-config.php:551
+msgid "Hide read more"
+msgstr ""
+
+#: inc/options-config.php:569
+msgid "Sticky"
+msgstr ""
+
+#: inc/options-config.php:575
+msgid "Menu icons"
+msgstr ""
+
+#: inc/options-config.php:581
+msgid "Position"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Cell padding"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "items"
+msgstr ""
+
+#: inc/options-config.php:613
+msgid "when you mouse over it"
+msgstr ""
+
+#: inc/options-config.php:619
+msgid "Current Page"
+msgstr ""
+
+#: inc/options-config.php:625
+msgid "Submenu"
+msgstr ""
+
+#: inc/options-config.php:638
+msgid "Striped background image"
+msgstr ""
+
+#: inc/options-config.php:648
+msgid "Social"
+msgstr ""
+
+#: inc/options-config.php:648
+msgid "Links"
+msgstr ""
+
+#: inc/options-config.php:652
+msgid "Display Settings"
+msgstr ""
+
+#: inc/options-config.php:656
+msgid "Display post date?"
+msgstr ""
+
+#: inc/options-config.php:662
+msgid "Display item author if available?"
+msgstr ""
+
+#: inc/options-config.php:668
+msgid "Post Thumbnail"
+msgstr ""
+
+#: inc/options-config.php:674
+msgid "Featured Image Header"
+msgstr ""
+
+#: inc/options-config.php:680 inc/options-config.php:686
+msgid "Post"
+msgstr ""
+
+#: inc/options-config.php:680
+msgid "Tags"
+msgstr ""
+
+#: inc/options-config.php:686
+msgid "Categories"
+msgstr ""
+
+#: inc/options-config.php:692
+msgid "Post navigation"
+msgstr ""
+
+#: inc/options-config.php:698
+msgid "A search form for your site."
+msgstr ""
+
+#: inc/options-config.php:709
+msgid "Put this page in site footer"
+msgstr ""
+
+#: inc/options-config.php:740
+msgid "Copyright text"
+msgstr ""
+
+#: inc/options-config.php:751
+msgid "Additional CSS"
+msgstr ""
+
+#: inc/options-config.php:757
+msgid "Reset all theme settings to default."
+msgstr ""
+
+#: inc/options-config.php:788
+msgid "Refresh the page to view full effects."
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:69
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:78 inc/template-tags.php:84
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:101
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:103
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:105
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:107
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:109
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:131
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:135
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:137
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:225
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:241
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:288
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:292
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:388
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:389
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: inc/template-tags.php:392
+#, php-format
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: inc/template-tags.php:393
+msgid "<strong>The WP</strong> Theme"
+msgstr ""
+
+#: inc/widgets.php:330
+msgid "Select Icon"
+msgstr ""
+
+#: inc/widgets.php:332
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/widgets.php:372
+msgid "Add"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:9
+msgid "Search"
+msgstr ""

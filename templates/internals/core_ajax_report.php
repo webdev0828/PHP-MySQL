@@ -1,0 +1,201 @@
+<?php
+define('TRAFFIC_EXCEEDED_EXEMPT', TRUE);
+$control_panel_session = true;
+include_once("../../API/config.php");
+include_once('../../includes/session.check_affiliates.php');
+
+$temp_fields = 'details_type_1,details_type_2,details_type_3,details_type_6,account_not_available,details_details';
+try {
+    $query = $db->query("select {$temp_fields} from `idevaff_language_".$pack_table_selected."` LIMIT 1");
+    $query->setFetchMode(PDO::FETCH_ASSOC);
+    $getlanguage=$query->fetch();
+    $query->closeCursor();
+} catch ( Exception $ex ) {
+    echo '<strong>Error:</strong><br>File: ' . $ex->getFile() . '<br><strong>Line:</strong> ' . $ex->getLine() . '<br><strong>Message:</strong> ' . $ex->getMessage();
+    die;
+}
+
+$details_type_1 = $getlanguage['details_type_1'];
+$details_type_2 = $getlanguage['details_type_2'];
+$details_type_3 = $getlanguage['details_type_3'];
+$details_type_6 = $getlanguage['details_type_6'];
+$account_not_available = $getlanguage['account_not_available'];
+$details_details = $getlanguage['details_details'];
+
+//print_r($_REQUEST);
+$report_number = isset($_REQUEST['report']) ? (int) $_REQUEST['report'] : '';
+$linkid = $_SESSION[$install_directory_name.'_idev_LoggedID'];
+
+//Define reports that will not pick from main idevaff_sales table
+$report_archive = array(4,5);
+
+if ($report_number) {
+    //Get Param
+    $paramRowPerPage = isset($_REQUEST['iDisplayLength']) ? (int)$_REQUEST['iDisplayLength'] : 10;
+    $paramEcho = isset($_REQUEST['sEcho']) ? stripslashes($_REQUEST['sEcho']) : '';
+    $paramStart = isset($_REQUEST['iDisplayStart']) ? (int)$_REQUEST['iDisplayStart'] : 0;
+    //Get data from database
+    if(!in_array($report_number, $report_archive)){
+        $report_table = 'idevaff_sales';
+        $aColumns = array( 'code', 'record', 'geo', 'payment', 'approved', 'sub_id');
+    }else{
+        $report_table = 'idevaff_archive';
+        $aColumns = array( 'code', 'record', 'geo', 'payment', 'sub_id');
+    }
+    $paramSearch = trim($_REQUEST['sSearch']);
+    $sLimit = sprintf(" LIMIT %d, %d ", $paramStart, $paramRowPerPage);
+    
+    
+    /*
+    * Ordering
+    */
+   if ( isset( $_REQUEST['iSortCol_0'] ) )
+   {
+
+           $sOrder = " ORDER BY  ";
+           for ( $i=0 ; $i<intval( $_REQUEST['iSortingCols'] ) ; $i++ )
+           {
+                   if ( $_REQUEST[ 'bSortable_'.intval($_REQUEST['iSortCol_'.$i]) ] == "true" )
+                   {
+                           $sOrder .= "`".$aColumns[ intval( $_REQUEST['iSortCol_'.$i] ) ]."` ".
+                                   ($_REQUEST['sSortDir_'.$i]==='desc' ? 'desc' : 'asc') .", ";
+                   }
+           }
+
+           $sOrder = substr_replace( $sOrder, "", -2 );
+           if ( $sOrder == " ORDER BY" )
+           {
+                   $sOrder = "";
+           }
+   }
+   $sSearch = '';
+    if ($paramSearch != '') {
+        $orWhereCondList = array();
+        foreach($aColumns as $column) {
+            $orWhereCondList[] = sprintf(" %s LIKE '%%%s%%' ", $column, $paramSearch);
+        }
+        
+        $sSearch = implode(' OR ', $orWhereCondList);
+        $sSearch = '(' . $sSearch . ')';
+    }
+   /*
+    $sSearch = '';
+    if ($paramSearch != '') {
+        $orWhereCondList = array();
+        foreach($aColumns as $column) {
+            $orWhereCondList[] = sprintf(" %s LIKE '%%%s%%' ", $column, $paramSearch);
+        }
+
+        $sSearch = implode(' OR ', $orWhereCondList);
+        $sSearch = '(' . $sSearch . ') ';
+    }
+    */
+   
+    //Query
+    $query = sprintf('SELECT %s FROM '.$report_table.' ', implode(',', $aColumns));
+   
+   
+    if ($report_number == '1') {
+        $whereCond = "WHERE id = ? and approved = '1' and top_tier_tag = '0' ";
+    }
+
+    if ($report_number == '2') {
+        $whereCond = "WHERE id = ? and approved = '1' and top_tier_tag = '1' ";
+    }
+
+    if ($report_number == '3') {
+        $whereCond = "WHERE id = ? and approved = '0' and delay = '0' and payment != '0' ";
+    }
+
+    if ($report_number == '4') {
+        $whereCond = "WHERE id = ? and top_tier_tag = '0' ";
+    }
+
+    if ($report_number == '5') {
+        $whereCond = "WHERE id = ? and top_tier_tag = '1' ";
+    }
+
+    if ($report_number == '6') {
+        $whereCond = "WHERE id = ? and approved = '0' and delay > '0' and payment != '0' ";
+    }
+    if ($sSearch != '') {
+        $whereCond .= ' AND ' . $sSearch;
+    }
+
+    $query .= $whereCond . $sOrder. $sLimit;
+    
+    $result = $db->prepare($query);
+    $result->execute(array($linkid));
+    
+    //Get total count
+    $query = sprintf('SELECT count(*) as c FROM '.$report_table . ' ');
+    $query .= $whereCond;
+    $rResultTotal = $db->prepare($query);
+    $rResultTotal->execute(array($linkid));
+    $totalCountObj = $rResultTotal->fetch();
+    $totalCount = $totalCountObj["c"];
+    
+    
+    
+    $output = array();
+    $output['sEcho'] = intval($paramEcho);
+    $output['iTotalRecords'] = $totalCount;
+    $output['iTotalDisplayRecords'] = $totalCount;//count($accountList);
+    $output['aaData'] = array();
+    
+    
+    foreach ( $result->fetchAll() as $pqry) {
+        $commission_amount="";
+        $record_id = $pqry['record'];
+        $geo = $pqry['geo'];
+        $commission_date = date($dateformat, $pqry['code']);
+       if($cur_sym_location == 1){ $commission_amount .=  $cur_sym; }
+        $commission_amount .=number_format($pqry['payment'], $decimal_symbols);
+       if($cur_sym_location == 2){  $commission_amount .=$cur_sym; }
+       $commission_amount = $commission_amount . " " . $currency;
+        $sub_id = $pqry['sub_id'];
+        if ($report_number !=4 && $report_number != 5) {
+            $papp = $pqry['approved'];
+        }
+        if (($report_number == 4) || ($report_number == '5')) {
+            $record_type = 2;
+            $distype = $details_type_1;
+        } elseif ($report_number == 3) {
+            $record_type = 3;
+            $distype = $details_type_2;
+        } elseif ($report_number == 6) {
+            $record_type = 6;
+            $distype = $details_type_6;
+        } else {
+            $record_type = 1;
+            $distype = $details_type_3;
+        }
+
+        if (!$sub_id) { $sub_id = $account_not_available; }
+
+        $tmpcm = array(
+            $commission_date,
+            $distype,
+            $geo
+        );
+        
+        //If sub tracking is enabled add to array (Position 3 in datatable)
+        if($sub_enable == 1){
+            $tmpcm[] = $sub_id;
+        }
+
+        $tmpcm[] = $commission_amount;
+        $tmpcm[] = "<a href='/account.php?page=22&type=$record_type&id=$record_id' class='btn btn-xs btn-primary'>$details_details</a>";
+        
+        $output['aaData'][] = $tmpcm;
+    }
+    echo json_encode($output);
+
+    exit;
+}
+
+
+
+
+exit;
+

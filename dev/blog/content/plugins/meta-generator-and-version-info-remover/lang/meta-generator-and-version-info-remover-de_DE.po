@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meta Generator and Version Info Remover\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-28 08:45+0000\n"
+"PO-Revision-Date: 2018-10-28 09:57+0100\n"
+"Last-Translator: Passionlab <gestioneweb@passionlab.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#: meta_generator_and_version_info_remover.php:115
+msgid ""
+"Enter comma separated list of file names (CSS/JS files) to exclude them from "
+"version removal process. Version info will be kept for these files."
+msgstr ""
+"Geben Sie die Komma-getrennte Liste der Dateinamen (CSS/JS-Dateien) ein, um "
+"Sie vom Versions Entfernungs Prozess auszuschließen. Die "
+"Versionsinformationen werden für diese Dateien aufbewahrt."
+
+#: meta_generator_and_version_info_remover.php:70
+msgid ""
+"Enter CSS/JS file names to exclude from version removal (comma separated "
+"list)"
+msgstr ""
+"Geben Sie CSS/JS-Dateinamen ein, um von der Versions Entfernung "
+"auszuschließen (Komma-getrennte Liste)"
+
+#. URI of the plugin
+msgid ""
+"http://pankajgurudeb.blogspot.com/2013/04/meta-generator-and-version-info-"
+"remover.html"
+msgstr ""
+"http://pankajgurudeb.blogspot.com/2013/04/Meta-Generator-and-Version-Info-"
+"Remover.html"
+
+#. Author URI of the plugin
+msgid "http://pankajmondal.com"
+msgstr "http://pankajmondal.com"
+
+#. Name of the plugin
+#: meta_generator_and_version_info_remover.php:26
+msgid "Meta Generator and Version Info Remover"
+msgstr "Meta-Generator und Versions-Info-Entferner-Einstellungen"
+
+#: meta_generator_and_version_info_remover.php:33
+msgid "Meta Generator and Version Info Remover Settings"
+msgstr "Meta-Generator und Versions-Info-Entferner-Einstellungen"
+
+#: meta_generator_and_version_info_remover.php:62
+msgid "Meta Generator Remover Settings"
+msgstr "Meta-Generator-Entfernungseinstellungen"
+
+#. Author of the plugin
+msgid "Pankaj Kumar Mondal"
+msgstr "Pankaj Kumar Mondal"
+
+#: meta_generator_and_version_info_remover.php:44
+msgid "Rate and review this plugin &gt;"
+msgstr "Bewerten und überprüfen Sie dieses Plugin &gt;"
+
+#: meta_generator_and_version_info_remover.php:65
+msgid ""
+"Remove Slider Revolution generator tag (Applicable if Slider Revolution "
+"Plugin is used)"
+msgstr ""
+"Slider Revolution Generator-Tag entfernen (Anwendbar, wenn Slider Revolution "
+"Plugin verwendet wird)"
+
+#: meta_generator_and_version_info_remover.php:69
+msgid "Remove version from script (JS files)"
+msgstr "Version aus dem Skript entfernen (JS-Dateien)"
+
+#: meta_generator_and_version_info_remover.php:68
+msgid "Remove version from stylesheet (CSS files)"
+msgstr "Entfernen Sie die Version von Stylesheet (CSS-Dateien)"
+
+#: meta_generator_and_version_info_remover.php:66
+msgid ""
+"Remove Visual Composer generator tag (Applicable if Visual Composer / "
+"WPBakery Page Builder Plugin is used)"
+msgstr ""
+"Visual Composer-Generator-Tag entfernen (Anwendbar, wenn das Visual "
+"Composer / WPBakery Page Builder-Plugin verwendet wird)"
+
+#: meta_generator_and_version_info_remover.php:63
+msgid "Remove WordPress default meta generator tag"
+msgstr "Entfernen Sie WordPress-Standard-Meta-Generator-Tag"
+
+#: meta_generator_and_version_info_remover.php:64
+msgid ""
+"Remove WPML generator tag (Applicable if WordPress Multilingual Plugin is "
+"used)"
+msgstr ""
+"Remove WPML generator tag (Anwendbar, wenn WordPress Multilingual Plugin "
+"verwendet wird)"
+
+#: meta_generator_and_version_info_remover.php:53
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: meta_generator_and_version_info_remover.php:41
+msgid "Show some Love"
+msgstr "Zeigen Sie etwas Liebe"
+
+#: meta_generator_and_version_info_remover.php:48
+msgid "Support development of this plugin &gt;"
+msgstr "Support-Entwicklung dieses Plugins &gt;"
+
+#. Description of the plugin
+msgid ""
+"This plugin will remove the version information that gets appended to "
+"enqueued style and script URLs. It will also remove the Meta Generator in "
+"the head and in RSS feeds. Adds a bit of obfuscation to hide the WordPress "
+"version number and generator tag that many sniffers detect automatically "
+"from view source. But always remember to keep your WordPress updated."
+msgstr ""
+"Dieses Plugin entfernt die Versionsinformationen, die an den enqueued-Stil "
+"und die Skript-URLs angehängt werden. Es wird auch den Meta-Generator im "
+"Kopf und in RSS-Feeds entfernen. Fügt ein wenig Verschleierung hinzu, um die "
+"WordPress-Versionsnummer und den Generator-Tag zu verbergen, den viele "
+"Schnüffler automatisch aus der View-Quelle erkennen. Aber denken Sie immer "
+"daran, Ihre WordPress aktualisiert zu halten."
+
+#: meta_generator_and_version_info_remover.php:34
+msgid "Trusted since 2013"
+msgstr "Vertraute seit 2013"
+
+#: meta_generator_and_version_info_remover.php:67
+msgid "Version Info Remover Settings"
+msgstr "Meta-Generator und Versions-Info-Entferner-Einstellungen"
+
+#: meta_generator_and_version_info_remover.php:50
+msgid "You can donate any amount you want"
+msgstr "Sie können jeden beliebigen Betrag spenden"

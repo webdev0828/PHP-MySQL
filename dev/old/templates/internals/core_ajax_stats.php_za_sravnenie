@@ -1,0 +1,136 @@
+
+<?php
+/*
+TODO: 
+hide stats table on home page, use traffic log page for stats, add to general statistics menu as dropdown and name it "detailed statistics"
+traffic log page
+replace queries to show
+date, unique visits, sales, sales ratio, earnings
+
+make rows with sales clickable and show country flag with tids 
+*/
+define('TRAFFIC_EXCEEDED_EXEMPT', TRUE);
+$control_panel_session = true;
+include_once("../../API/config.php");
+include_once('../../includes/session.check_affiliates.php');
+
+$temp_fields = 'traffic_no_url,traffic_box_title,traffic_box_info';
+try {
+    $query = $db->query("select {$temp_fields} from `idevaff_language_".$pack_table_selected."` LIMIT 1");
+    $query->setFetchMode(PDO::FETCH_ASSOC);
+    $getlanguage=$query->fetch();
+    $query->closeCursor();
+} catch ( Exception $ex ) {
+    echo '<strong>Error:</strong><br>File: ' . $ex->getFile() . '<br><strong>Line:</strong> ' . $ex->getLine() . '<br><strong>Message:</strong> ' . $ex->getMessage();
+    die;
+}
+
+$traffic_no_url = $getlanguage['traffic_no_url'];
+$traffic_box_title = $getlanguage['traffic_box_title'];
+$traffic_box_info = $getlanguage['traffic_box_info'];
+
+//print_r($_REQUEST);
+$report_number = isset($_REQUEST['report']) ? (int) $_REQUEST['report'] : '';
+$linkid = $_SESSION[$install_directory_name.'_idev_LoggedID'];
+
+    if ($report_number) 
+    {
+        //Get Param
+        $paramRowPerPage = isset($_REQUEST['iDisplayLength']) ? (int)$_REQUEST['iDisplayLength'] : 10; // how many rows to show (days) to replace with $l from original query - done, come up with ways to manipulate between statement when certain date ranges are selected
+        $paramEcho = isset($_REQUEST['sEcho']) ? stripslashes($_REQUEST['sEcho']) : '';
+        $paramStart = isset($_REQUEST['iDisplayStart']) ? (int)$_REQUEST['iDisplayStart'] : 0;
+        //Get data from database
+        $aColumns = array( 'date', 'uniqueVisits', 'sales', 'salesRatio', 'earnings');
+
+// check statements to extract data from db, order according to this script's mechanism to show stats on traffic log page
+
+        $paramSearch = trim($_REQUEST['sSearch']);
+        $sLimit = sprintf(" LIMIT %d, %d ", $paramStart, $paramRowPerPage);
+        
+        
+        /*
+        * Ordering
+        */
+       if ( isset( $_REQUEST['iSortCol_0'] ) )
+       {
+
+               $sOrder = " ORDER BY  ";
+               for ( $i=0 ; $i<intval( $_REQUEST['iSortingCols'] ) ; $i++ )
+               {
+                       if ( $_REQUEST[ 'bSortable_'.intval($_REQUEST['iSortCol_'.$i]) ] == "true" )
+                       {
+                               $sOrder .= "`".$aColumns[ intval( $_REQUEST['iSortCol_'.$i] ) ]."` ".
+                                       ($_REQUEST['sSortDir_'.$i]==='asc' ? 'asc' : 'desc') .", ";
+                       }
+               }
+
+               $sOrder = substr_replace( $sOrder, "", -2 );
+               if ( $sOrder == " ORDER BY" )
+               {
+                       $sOrder = "";
+               }
+       }
+               
+        $query = sprintf('SELECT COUNT(DISTINCT ip) FROM idevaff_iptracking '); // visits count
+        $query1 = sprintf('SELECT COALESCE(SUM(payment),0) as table_sales_totals FROM idevaff_sales '); // sales amount in euros amount
+        $query2 = sprintf('SELECT COUNT(*) FROM idevaff_archive '); // number of paid commissions
+        $query3 = sprintf('SELECT COUNT(*) FROM idevaff_sales '); // number of approved commissions
+
+
+            $whereCond = "WHERE acct_id = ? and stamp between '.strtotime('00:00:00 -'.$paramRowPerPage.' days').' and '.strtotime('23:59:59 -'.$paramRowPerPage.' days') "; // visits count
+            $whereCond1 = "WHERE approved = '1' and id = ? and code between '.strtotime('00:00:00 -'.$paramRowPerPage.' days').' and '.strtotime('23:59:59 -'.$paramRowPerPage.' days') "; // sales amount in euros
+            $whereCond2 = "WHERE id = ? and code between '.strtotime('00:00:00 -'.$paramRowPerPage.' days').' and '.strtotime('23:59:59 -'.$paramRowPerPage.' days') "; // number of paid commissions
+            $whereCond3 = "WHERE approved = '1' and id = ? and code between '.strtotime('00:00:00 -'.$paramRowPerPage.' days').' and '.strtotime('23:59:59 -'.$paramRowPerPage.' days') "; // number of approved commissions
+
+                
+        if ($sSearch != '') {
+            $whereCond .= ' AND ' . $sSearch; // visits count
+            $whereCond1 .= ' AND ' . $sSearch; // sales amount in euros
+            $whereCond2 .= ' AND ' . $sSearch; // number of paid commissions
+            $whereCond3 .= ' AND ' . $sSearch; // number of approved commissions
+        }
+        
+
+        $query .= $whereCond . $sOrder. $sLimit; // visits count
+        $query1 .= $whereCond1 . $sOrder. $sLimit; // sales amount in euros
+        $query2 .= $whereCond2 . $sOrder. $sLimit;  // number of paid commissions
+        $query3 .= $whereCond2 . $sOrder. $sLimit;  // number of approved commissions
+
+        //echo $query;
+        
+        $table_traffic = $db->prepare($query);		// visits count
+        $table_traffic->execute(array($linkid));
+
+        $table_sales_totals = $db->prepare($query1);	// sales amount in euros
+        $table_sales_totals->execute(array($linkid));
+
+        $table_paid = $db->prepare($query2);	// number of paid commissions
+        $table_paid->execute(array($linkid));
+
+        $table_approved = $db->prepare($query3);	// number of approved commissions
+        $table_approved->execute(array($linkid));
+
+
+    $table_traffic = $table_traffic->fetchColumn();
+    $table_approved = $table_approved->fetchColumn();
+    $table_paid = $table_paid->fetchColumn();
+    $table_sales_totals = $table_sales_totals->fetch();
+    $table_sales_totals = $table_sales_totals['table_sales_totals'];
+    $table_commissions = $table_approved + $table_paid;
+
+if ($table_traffic == 0) {
+$sales_ratio = 0;
+$sales_ratio_rounded = 0;
+}else{
+    $sales_ratio = $table_commissions / $table_traffic * 100;
+    $sales_ratio_rounded = round($sales_ratio, 3);
+}
+
+
+    $output .= '{ "date": "'.date('m/d/Y', strtotime('-'.$paramRowPerPage.' days')).'", "uniqueVisits": "'.$table_traffic.'", "sales": "'.$table_commissions.'", "salesRatio": "'.$sales_ratio_rounded.'%", "earnings": "'.$table_sales_totals.'€" },';
+
+        echo $output;
+
+        exit;
+    }
+exit;

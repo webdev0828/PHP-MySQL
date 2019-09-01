@@ -1,0 +1,43 @@
+/*
+	--------------------------------------------------------------------------------------------------------------
+	iDevAffiliate HTML Front-End Template
+	--------------------------------------------------------------------------------------------------------------
+	Common CSS: Internet Explorer Fix
+	--------------------------------------------------------------------------------------------------------------
+*/
+
+input[type=checkbox].tc,
+input[type=radio].tc {
+  position: static;
+  width: auto;
+  height: auto;
+  z-index: auto;
+}
+input[type=checkbox].tc + .lables,
+input[type=radio].tc + .lables {
+  min-height: auto;
+  min-width: auto;
+}
+input[type=checkbox].tc.tc-switch {
+  width: auto;
+}
+input[type=checkbox].tc.tc-switch + .lables {
+  margin: 0;
+  min-height: auto;
+}
+input[type=checkbox].tc.tc-switch-7 {
+  width: auto;
+}
+.labels {
+  top: -1px;
+}
+.tasks-widget .labels {
+  top: -2px;
+}
+.dropdown-checkboxes li .labels,
+.dropdown-checkboxes li .input[type=checkbox] {
+  padding-left: 5px;
+}
+.navbar-top {
+  border-bottom: 0 none!important;
+}

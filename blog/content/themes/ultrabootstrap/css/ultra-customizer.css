@@ -1,0 +1,23 @@
+/**
+ * Customizer Custom CSS
+ */
+.ultra-ads {
+	background-color: #F66264;
+	text-align: center;
+}
+.ultra-ads .button {
+	background-color: #F66264;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    color: #ffffff;
+	margin: 15px 0;
+	transition: all 0.5s ease-in-out 0s;
+	-webkit-transition:all 0.5s ease-in-out 0s;
+	-moz-transition:all 0.5s ease-in-out 0s;
+}
+.ultra-ads .button:hover,
+.ultra-ads .button:focus
+{
+	background-color: #F66264 ;
+	color: #ffffff;
+}

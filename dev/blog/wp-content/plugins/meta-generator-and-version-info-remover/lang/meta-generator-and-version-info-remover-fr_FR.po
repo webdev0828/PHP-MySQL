@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meta Generator and Version Info Remover\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 06:55+0000\n"
+"PO-Revision-Date: 2019-02-12 08:34+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#: meta_generator_and_version_info_remover.php:118
+msgid ""
+"Enter comma separated list of file names (CSS/JS files) to exclude them from "
+"version removal process. Version info will be kept for these files."
+msgstr ""
+"Entrez la liste séparée par des virgules des noms de fichiers (fichiers CSS/"
+"js) pour les exclure du processus de suppression de version. Les "
+"informations de version seront conservées pour ces fichiers."
+
+#: meta_generator_and_version_info_remover.php:70
+msgid ""
+"Enter CSS/JS file names to exclude from version removal (comma separated "
+"list)"
+msgstr ""
+"Entrez les noms de fichiers CSS/js à exclure de la suppression de version "
+"(liste séparée par des virgules)"
+
+#. Author URI of the plugin
+msgid "http://pankajmondal.com"
+msgstr "http://pankajmondal.com"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/meta-generator-and-version-info-remover/"
+msgstr "https://wordpress.org/plugins/meta-generator-and-version-info-remover/"
+
+#. Name of the plugin
+#: meta_generator_and_version_info_remover.php:26
+msgid "Meta Generator and Version Info Remover"
+msgstr "Meta Generator et version info Remover"
+
+#: meta_generator_and_version_info_remover.php:33
+msgid "Meta Generator and Version Info Remover Settings"
+msgstr "Meta Generator et version info Remover paramètres"
+
+#: meta_generator_and_version_info_remover.php:62
+msgid "Meta Generator Remover Settings"
+msgstr "Paramètres Meta Generator Remover"
+
+#. Author of the plugin
+msgid "Pankaj Kumar Mondal"
+msgstr "Pankaj Kumar Mondal"
+
+#: meta_generator_and_version_info_remover.php:44
+msgid "Rate and review this plugin &gt;"
+msgstr "Note et revue de ce plugin &gt;"
+
+#: meta_generator_and_version_info_remover.php:73
+msgid "Remove Google Analytics (MonsterInsights) comments"
+msgstr "Supprimer les commentaires Google Analytics (MonsterInsights)"
+
+#: meta_generator_and_version_info_remover.php:65
+msgid ""
+"Remove Slider Revolution generator tag (Applicable if Slider Revolution "
+"Plugin is used)"
+msgstr ""
+"Supprimer la balise du générateur Slider Revolution (applicable si le plug-"
+"in Slider Revolution est utilisé)"
+
+#: meta_generator_and_version_info_remover.php:69
+msgid "Remove version from script (JS files)"
+msgstr "Supprimer la version du script (fichiers JS)"
+
+#: meta_generator_and_version_info_remover.php:68
+msgid "Remove version from stylesheet (CSS files)"
+msgstr "Supprimer la version de StyleSheet (fichiers CSS)"
+
+#: meta_generator_and_version_info_remover.php:66
+msgid ""
+"Remove Visual Composer generator tag (Applicable if Visual Composer / "
+"WPBakery Page Builder Plugin is used)"
+msgstr ""
+"Supprimer la balise de générateur Visual Composer (applicable si le plug-in "
+"Visual Composer / WPBakery Page Builder est utilisé)"
+
+#: meta_generator_and_version_info_remover.php:63
+msgid "Remove WordPress default meta generator tag"
+msgstr "Supprimer la balise WordPress default meta generator"
+
+#: meta_generator_and_version_info_remover.php:64
+msgid ""
+"Remove WPML generator tag (Applicable if WordPress Multilingual Plugin is "
+"used)"
+msgstr ""
+"Supprimer la balise du générateur WPML (applicable si WordPress Multilingual "
+"Plugin est utilisé)"
+
+#: meta_generator_and_version_info_remover.php:72
+msgid "Remove Yoast SEO comments"
+msgstr "Supprimer les commentaires de Yoast SEO"
+
+#: meta_generator_and_version_info_remover.php:53
+msgid "Save changes"
+msgstr "Enregistrer les changements"
+
+#: meta_generator_and_version_info_remover.php:41
+msgid "Show some Love"
+msgstr "Montrer un peu d'Amour"
+
+#: meta_generator_and_version_info_remover.php:48
+msgid "Support development of this plugin &gt;"
+msgstr "Soutenir le développement de ce plugin &gt;"
+
+#. Description of the plugin
+msgid ""
+"This plugin will remove the version information that gets appended to "
+"enqueued style and script URLs. It will also remove the Meta Generator in "
+"the head and in RSS feeds. Adds a bit of obfuscation to hide the WordPress "
+"version number and generator tag that many sniffers detect automatically "
+"from view source. But always remember to keep your WordPress updated."
+msgstr ""
+"Ce plugin va supprimer les informations de version qui est ajouté à la file "
+"d'attente de style et URL script. Il sera également supprimer le générateur "
+"de méta dans la tête et dans les flux RSS. Ajoute un peu d'obscurcissement "
+"pour masquer le numéro de version de WordPress et la balise Generator que de "
+"nombreux renifleurs détectent automatiquement à partir de la source de vue. "
+"Mais rappelez-vous toujours de garder votre WordPress mis à jour."
+
+#: meta_generator_and_version_info_remover.php:34
+msgid "Trusted since 2013"
+msgstr "Confiance depuis 2013"
+
+#: meta_generator_and_version_info_remover.php:67
+msgid "Version Info Remover Settings"
+msgstr "Version info Remover paramètres"
+
+#: meta_generator_and_version_info_remover.php:71
+msgid "View Source Comments Remover Settings"
+msgstr "Afficher la configuration pour supprimer les commentaires de code"
+
+#: meta_generator_and_version_info_remover.php:50
+msgid "You can donate any amount you want"
+msgstr "Vous pouvez donner n'importe quel montant que vous voulez"

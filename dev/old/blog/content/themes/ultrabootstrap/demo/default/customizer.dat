@@ -1,0 +1,6 @@
+a:4:{s:8:"template";s:14:"ultrabootstrap";s:4:"mods";a:16:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:3;}s:11:"custom_logo";s:0:"";s:18:"custom_css_post_id";i:63;s:18:"googleplus_textbox";s:1:"#";s:16:"welcome_textbox1";s:30:"WELCOME TO THE BOOTSTRAP THEME";s:14:"welcome_button";s:1:"#";s:16:"welcome_textbox2";s:78:"FREE RESPONSIVE, MULTIPURPOSE BUSINESS AND CORPORATE THEME PERFECT FOR ANY ONE";s:16:"textarea_setting";s:445:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";s:14:"features_title";s:17:"featured category";s:16:"features_display";i:4;s:20:"featured_no_of_posts";s:1:"8";s:16:"linkedin_textbox";s:1:"#";s:17:"pinterest_textbox";s:1:"#";s:23:"slider_category_display";i:2;s:16:"header_textcolor";s:6:"000000";}s:7:"options";a:2:{s:9:"site_icon";s:1:"0";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:79:"/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+";}

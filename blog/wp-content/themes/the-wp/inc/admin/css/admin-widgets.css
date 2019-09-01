@@ -1,0 +1,82 @@
+/**
+ * The WP Widgets
+ * ========================================================
+ */
+
+/*** Widgets page ***/
+.widgets-php { }
+.widgets-php h3.the-wp-widgets:before {
+	content:"\f005 ";
+	font-family: 'FontAwesome';
+	margin-right: -7px;
+}
+/*** Widgets ***/
+.the-wp-widgets-widget-form { }
+.the-wp-widgets-widget-form-help { font-size: 0.9em; margin: 1em 0; color: #999999; font-style: italic; background: #fafafa; border: solid 1px #e5e5e5; border-radius: 2px; padding: 0.5em 1em; }
+.the-wp-widgets-widget-field { clear: both; margin: 1.3em 0; line-height: 1.5; }
+ul.the-wp-w-widget-list { margin-top: 0.5em; }
+.the-wp-w-widget-field-description { }
+
+/*** Separator ***/
+.the-wp-widget-field-separator {
+	width: 80%;
+	display: block;
+	clear: both;
+	border-bottom: solid 1px #ccc;
+	margin: 1.5em auto;
+	padding:5px;
+	color:#ccc;
+	font-weight:bold;
+	text-align:center;
+	font-size:1.4em;
+}
+/*** Color Picker ***/
+.the-wp-widget-field-type-color-picker {
+	margin:15px 0;
+}
+.wp-picker-container > a.wp-color-result {
+	/* visibility:hidden;*/
+}
+
+/*** Image Picker ***/
+.the-wp-widget-list-images li { display: inline-block; }
+.the-wp-widget-list-images input[type="radio"] { visibility: hidden; opacity: 0; filter: alpha(opacity=0); }
+.the-wp-widget-list-images label { display: inline-block; border: solid 3px #e5e5e5; position: relative; left: -22px; padding: 2px; margin-right: -22px; }
+.the-wp-widget-list-images label:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.the-wp-widget-list-images .the-wp-widget-image-picker-img { float: left; }
+
+.the-wp-widget-list-images input[type="radio"]:checked + label { border: 3px solid #64bd1f; }
+.the-wp-widget-list-images input[type="radio"]:checked + label:before { content: "\f147"; font-family: dashicons; background-color: #64bd1f; position: absolute; right: 0px; bottom: 0px; border-top-left-radius: 2px; color: #fff; line-height: normal; font-size: 20px; padding: 1px 0 0 1px; }
+
+/*** Icon Picker ***/
+.the-wp-widget-field-icon .the-wp-of-icon-picked { display: inline-block; font-size: 11px; line-height: 22px;
+	background: #f7f7f7; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.08); box-shadow: 1px 1px 0 rgba(0,0,0,.08); border: solid 1px #ccc; cursor: pointer; margin-top: 4px; }
+.the-wp-widget-field-icon .the-wp-of-icon-picked i { font-size: 20px; padding: 2px 4px; width: 26px; text-align: center; background: #eee; float: left; }
+.the-wp-widget-field-icon .the-wp-of-icon-picked i.selected { /*background: #2ea2cc; color: #fff;*/ }
+.the-wp-widget-field-icon .the-wp-of-icon-picked span { display: inline-block; padding: 1px 7px; float: left;
+	border-left: solid 1px #ccc; -webkit-border-radius: 0 2px 2px 0; border-radius: 0 2px 2px 0; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-box { display: none; max-width: 450px; margin-right: -450px; margin-top: 0.3em; overflow: auto; max-height: 13em; background: #fff; padding: 10px; padding-right: 0; border: solid 1px #dfdfdf; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list { }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list:after { display: block; clear: both; width: 100%; content: ''; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list i { font-size: 1.33em; float: left; width: 1em; border: 1px solid #e1e1e1; margin: 0 0 -1px -1px; padding: 0.5em; cursor: pointer; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list i:hover,
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list i:hover:before,
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list i.selected { background: #2ea2cc; color: #fff; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list .the-wp-of-icon-none { width: auto; padding: 2px 8px; margin-top: 8px; background: #f7f7f7; -webkit-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.08); box-shadow: 1px 1px 0 rgba(0,0,0,.08); }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list .the-wp-of-icon-none:before { color: #bbb; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-list .the-wp-of-icon-none span { font-family: "Open Sans",sans-serif; font-size: 11px; line-height: 14px; margin-left: 7px; vertical-align: 12%; }
+/* Image Upload */
+.the-wp-widget-field-image input[type="text"] { width:70%;}
+/* Overrides */
+.the-wp-widget-field-icon .the-wp-of-icon-picked { margin-top: 0; margin-bottom: -4px; }
+.the-wp-widget-field-icon .the-wp-of-icon-picker-box { max-width: none; margin-right: 0; position: relative; z-index: 10; }
+
+/*** Group ***/
+.the-wp-widget-field-group-top h3 { font-size: 13px; margin: 0; }
+.the-wp-widget-field-group-items{ margin-top: 0.5em; }
+.the-wp-widget-field-group-item { background: #f7f7f7; border: solid 1px #ddd; border-bottom: none; padding: 0 0.8em 1px; }
+.the-wp-widget-field-group-item-top { background: #eee; margin: 0 -0.8em; padding: 5px 0.8em; cursor: pointer; }
+.the-wp-widget-field-group-item-top h4 { margin: 0; padding-right: 18px; }
+.the-wp-widget-field-remove { display: inline-block; float: right; padding: 0 5px; cursor: pointer; }
+.the-wp-widget-field-group-item-form { /* display: none; */ }
+.the-wp-widget-field-group-add { background: #eee; border: dashed 1px #ddd; text-align: center; cursor: pointer; }

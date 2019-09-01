@@ -1,0 +1,172 @@
+/**
+ * Homepage style control
+ */
+.azb-featured-posts {
+	
+		@include clearfix;
+		
+		margin-bottom: ms(5);
+		
+
+		.featured-posts-second {
+			
+			
+			.featured-posts-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+				li {
+					padding: 10px 0;
+					border-bottom: 1px solid #ccc;
+
+					a {
+						font-size: 1.3em;
+
+						&::before {
+							font-family: "FontAwesome";
+						    margin-right: 0;
+						    display: block;
+						    float: left;
+						    opacity: 0.35;
+						    width: 20px;
+						    content: "\f105";
+						}
+					}
+
+					
+
+				}
+			}
+		}
+}	
+.azb-hmp-container {
+		.azb-hmp-row{
+			@include clearfix;
+			margin-bottom: ms(5);
+		}
+	}
+	.azb-box {
+		ul {
+			margin: 1em 0 1em 1em;
+
+			li {
+				list-style: none;
+				a {
+				 color: #0000EE;
+				 &:hover {
+				 	color: #f90;
+				 }
+
+				}
+
+				&::before {
+					font-family: "FontAwesome";
+				    margin-right: 0;
+				    display: block;
+				    float: left;
+				    opacity: 0.35;
+				    margin-left: -1em;
+				    width: 1em;
+				    content: "\f105";
+				}
+			}
+		}
+	}
+@include susy-media($desktop) {
+
+	.azb-featured-posts {
+		border-bottom: 2px solid $color_border;
+		padding-bottom: ms(5);
+		.featured-posts-thumb {
+			position: relative;
+
+			.featured-posts-title {
+
+				/*background: rgba(0, 0, 0, .5);
+				position: absolute;*/
+				margin: 0 0 ms(-2);
+				padding: 0;
+				font-size: ms(5);
+
+				a {
+					color: #000;
+
+					&:hover {
+						color: #f90;
+					}
+				}
+			}
+		}
+
+		.featured-posts-first {
+			@include span(7 of 12);
+		} 
+		.featured-posts-second {
+			@include span( last 5 of 12);
+		}
+	}
+	
+	.cat-summary {
+		.cat-desc {
+			font-style: italic;
+		}
+	}
+	.azb-hmp-box-2 {
+		.azb-box {
+
+			@include span(6 of 12);
+
+			&.azb-box-2 {
+				@include last;
+			}
+		}
+	}
+	.azb-hmp-box-3 {
+		.azb-box {
+
+			@include span(4 of 12);
+
+			&.azb-box-3 {
+				@include last;
+			}
+		}
+	}
+	.azb-hmp-box-4 {
+		.azb-box {
+
+			@include span(3 of 12);
+
+			&.azb-box-4 {
+				@include last;
+			}
+		}
+	}
+}
+@include susy-media (max-width $handheld) {
+	.header-menu-container {
+		display: none;
+	}
+
+	.featured-posts-first {
+		@include span( 12 );
+	} 
+	.featured-posts-second {
+		@include span( 12 );
+	}
+
+	.azb-hmp-container {
+		.cat-summary {
+			.azb-hmp-cat {
+				border-bottom: 1px solid $color_border;
+			}
+		}
+	}
+	.azb-hmp-box-2,
+	.azb-hmp-box-3,
+	.azb-hmp-box-4 {
+		.azb-box {
+			@include span( 12 );
+		}
+	}
+}

@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Best WP\n"
+"POT-Creation-Date: 2018-07-21 23:52+0300\n"
+"PO-Revision-Date: 2018-07-21 23:52+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:47 comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50 comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51 comments.php:72
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:17
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:19
+msgid "Theme by Seos Themes"
+msgstr ""
+
+#: footer.php:25
+msgid "To Top"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-header.php:23
+msgctxt "header image description"
+msgid "Default Image"
+msgstr ""
+
+#: inc/custom-header.php:87
+msgid "Activate Header Image:"
+msgstr ""
+
+#: inc/custom-header.php:91 inc/custom-header.php:114
+msgid "Deactivate Header Image"
+msgstr ""
+
+#: inc/custom-header.php:92 inc/custom-header.php:115
+msgid "All Pages"
+msgstr ""
+
+#: inc/custom-header.php:93 inc/custom-header.php:116
+msgid "Home Page"
+msgstr ""
+
+#: inc/customizer.php:32 inc/customizer.php:87
+msgid " "
+msgstr ""
+
+#: inc/customizer.php:33 inc/customizer.php:88
+msgid "_self"
+msgstr ""
+
+#: inc/customizer.php:34 inc/customizer.php:89
+msgid "_blank"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Social media buttons"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Activate Social Icons in Header:"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Activate Social Icons in Footer:"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Link Type"
+msgstr ""
+
+#: inc/customizer.php:98
+msgid "Social Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Social Hover Icons Color:"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Enter Facebook url"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Enter Twitter url"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Enter Google+ url"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Custom Copyright Text"
+msgstr ""
+
+#: inc/template-tags.php:24
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:46 inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:48
+#, php-format
+msgid " Posted in %1$s "
+msgstr ""
+
+#: inc/template-tags.php:54
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:61
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:69 template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/theme-functions.php:29
+msgid "Primary"
+msgstr ""
+
+#: inc/theme-functions.php:72
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-functions.php:74
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/theme-functions.php:145
+#, php-format
+msgid "Read More<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content.php:56
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:51
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Best WP"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://seosthemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Best WP clear, easy to customize WP template. Best WP is a modern multi-"
+"purpose HTML5 theme. The theme is excellent for a photography, blog, "
+"newspaper, images, photos, publishing, news, blog, business, portfolio or "
+"other editorial websites. To learn more about the theme please go to the "
+"theme uri and read the documentation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tsvetomir Tsvetanov"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://seosthemes.info/best-wp-theme"
+msgstr ""

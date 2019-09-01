@@ -1,0 +1,52 @@
+{$header_accountLink}
+
+Същото като външното меню, но да има само вътрешните линкове без publishers, advertisers, overal stats, etc. etc - user menu only
+
+            {if isset($affiliateUsername)}
+                    <li><a href="/account.php" title="User Dashboard">User Dashboard</a></li>
+                    <li>
+                        <a href="account.php?page=17">{$menu_drop_edit}</a>
+                    </li>
+
+                    <li>
+                        <a href="account.php?page=48">{$payment_settings}</a>
+                    </li>
+                    
+                    <li>
+                        <a href="account.php?page=18">{$menu_drop_password}</a>
+                    </li>
+                    
+                    {if isset($change_commission)}
+                    <li>
+                        <a href="account.php?page=19">{$menu_drop_change}</a>
+                    </li>
+                    {/if}
+                    
+                    {if isset($pic_upload)}
+                    <li>
+                        <a href="account.php?page=43">{$menu_upload_picture}</a>
+                    </li>
+                    {/if}
+
+                    {if isset($logos_enabled)}
+                    <li>
+                        <a href="account.php?page=27">{$menu_drop_heading_logo}</a>
+                    </li>
+                    {/if}
+
+                    {if isset($use_faq) && ($faq_location == 2)}
+                    <li>
+                        <a href="account.php?page=21">{$menu_drop_heading_faq}</a>
+                    </li>
+                    {/if}
+                    
+                    {if isset($testimonials)}
+                    <li>
+                        <a href="account.php?page=41">{$menu_offer_testi}</a>
+                    </li>
+                    {/if}
+                    
+                    <li>
+                        <a href="index.php?logout=true">{$menu_logout}</a>
+                    </li>
+            {/if}

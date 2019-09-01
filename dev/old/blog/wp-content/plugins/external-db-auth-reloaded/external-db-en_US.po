@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: External DB Auth Reloaded\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-28 10:17-0500\n"
+"PO-Revision-Date: 2015-05-28 10:17-0500\n"
+"Last-Translator: Joshua Parker <josh@7mediaws.org>\n"
+"Language-Team: Joshua Parker <joshmac3@icloud.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: external_db_auth.php:112
+msgid "External Database Authentication Settings"
+msgstr ""
+
+#: external_db_auth.php:115
+msgid "External Database Settings"
+msgstr ""
+
+#: external_db_auth.php:116
+msgid "Make sure your WP admin account exists in the external db prior to saving these settings."
+msgstr ""
+
+#: external_db_auth.php:119
+msgid "Database type"
+msgstr ""
+
+#: external_db_auth.php:132
+msgid "External DB Host"
+msgstr ""
+
+#: external_db_auth.php:134
+msgid "(Often localhost but if your external DB is on a different server from your WP site, then you will need to enter either and IP address or domain name.)"
+msgstr ""
+
+#: external_db_auth.php:137
+msgid "External DB Port"
+msgstr ""
+
+#: external_db_auth.php:139
+msgid "Only set this if you have a non-standard port for connecting."
+msgstr ""
+
+#: external_db_auth.php:142
+msgid "External DB Name"
+msgstr ""
+
+#: external_db_auth.php:146
+msgid "External DB Username"
+msgstr ""
+
+#: external_db_auth.php:148
+msgid "(recommend select privileges only)"
+msgstr ""
+
+#: external_db_auth.php:151
+msgid "External DB Password"
+msgstr ""
+
+#: external_db_auth.php:155
+msgid "User table"
+msgstr ""
+
+#: external_db_auth.php:160
+msgid "External Database Source Fields"
+msgstr ""
+
+#: external_db_auth.php:163
+msgid "Username"
+msgstr ""
+
+#: external_db_auth.php:167
+msgid "Password"
+msgstr ""
+
+#: external_db_auth.php:171
+msgid "Password encryption method"
+msgstr ""
+
+#: external_db_auth.php:174
+msgid "SHA1"
+msgstr ""
+
+#: external_db_auth.php:175
+msgid "MD5"
+msgstr ""
+
+#: external_db_auth.php:176
+msgid "HASH"
+msgstr ""
+
+#: external_db_auth.php:177
+msgid "PHPass"
+msgstr ""
+
+#: external_db_auth.php:178
+#: external_db_auth.php:233
+msgid "Other"
+msgstr ""
+
+#: external_db_auth.php:180
+msgid "using \"Other\" requires you to enter custom PHP code into the Hash Code input field.)"
+msgstr ""
+
+#: external_db_auth.php:183
+msgid "Hash code"
+msgstr ""
+
+#: external_db_auth.php:185
+msgid "Only will run if \"Other\" is selected and needs to be PHP code. Variable you need to set is $password2, and you have access to (original) $username and $password."
+msgstr ""
+
+#: external_db_auth.php:188
+msgid "Role check"
+msgstr ""
+
+#: external_db_auth.php:193
+msgid "Is Equal To"
+msgstr ""
+
+#: external_db_auth.php:194
+msgid "Greater Than"
+msgstr ""
+
+#: external_db_auth.php:195
+msgid "Less Than"
+msgstr ""
+
+#: external_db_auth.php:198
+msgid "Use this if you have certain user role ids in your external database to further restrict allowed logins.  If unused, leave fields blank."
+msgstr ""
+
+#: external_db_auth.php:201
+msgid "First name"
+msgstr ""
+
+#: external_db_auth.php:205
+msgid "Last name"
+msgstr ""
+
+#: external_db_auth.php:209
+msgid "Homepage"
+msgstr ""
+
+#: external_db_auth.php:213
+msgid "Email"
+msgstr ""
+
+#: external_db_auth.php:217
+msgid "Bio/description"
+msgstr ""
+
+#: external_db_auth.php:221
+msgid "AIM screen name"
+msgstr ""
+
+#: external_db_auth.php:225
+msgid "YIM screen name"
+msgstr ""
+
+#: external_db_auth.php:229
+msgid "JABBER screen name"
+msgstr ""
+
+#: external_db_auth.php:236
+msgid "External Site URL"
+msgstr ""
+
+#: external_db_auth.php:240
+msgid "Custom login message"
+msgstr ""
+
+#: external_db_auth.php:241
+msgid "Shows up in login box, e.g., to tell them where to get an account. You can use HTML in this text."
+msgstr ""
+
+#: external_db_auth.php:544
+#: external_db_auth.php:546
+#: external_db_auth.php:555
+msgid "User registration is not available from this site, so you can't create an account or retrieve your password from here. See the message above."
+msgstr ""
+
+#: external_db_auth.php:547
+#: external_db_auth.php:559
+msgid "Are you lost?"
+msgstr ""
+
+#: external_db_auth.php:547
+#: external_db_auth.php:559
+#, php-format
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: external_db_auth.php:556
+msgid "Log In"
+msgstr ""
+

@@ -1,0 +1,16 @@
+.customize-control-kirki-radio-image input:checked + label img {
+	border: 3px solid #fff !important;
+	border-radius: 4px;
+}
+.customize-control-kirki-radio-image label img {
+	border-radius: 4px;
+	border: 3px solid #ddd;
+}
+.azonbooster-customizer-title {
+	background: #676565;
+	padding: 8px 10px 10px;
+	margin: 0 -12px;
+	color: #fff;
+	border-top: 2px solid #575656;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}

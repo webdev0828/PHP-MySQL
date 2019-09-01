@@ -1,0 +1,107 @@
+
+.dev-body {
+	background-repeat: no-repeat;
+	background-size: cover !important;
+
+	min-height: 500px;
+}
+
+#dev-login-box {
+	margin-top:25px;
+}
+
+#dev-seal-img--responsive {
+	width: 142px;
+	height: 142px;
+	
+	border: none;
+}
+
+#dev-main-logo {
+	width:150px;
+	height:25px;
+
+	border:none;
+}
+
+#dev-facebook-login-box {
+	padding: 20px 0;
+
+	text-align:center;
+}
+
+#dev-menu-left-form-box {
+	padding:15px 0;
+
+	text-align:center;
+}
+
+.dev-input-direction {
+	direction: ltr !important;	
+}
+
+.dev-full-width {
+	width: 100% !important;
+}
+
+.dev-red-color {
+	color: #CC0000;	
+}
+
+
+
+
+/****** 	MARGIN RULES 	******/
+
+
+.dev-margin-top--min {
+	margin-top: 15px !important;
+}
+
+.dev-margin-top--mid {
+	margin-top: 25px !important;
+}
+
+.dev-margin-top--max {
+	margin-top: 45px !important;
+}
+
+.dev-margin-none {
+	margin: 0 !important;
+}
+
+
+/****** 	BORDER RULES 	******/
+
+
+.dev-border-none {
+	border: none !important;
+}
+
+
+/****** 	FONT RULES 	******/
+
+
+.dev-font-weight--normal {
+	font-weight: normal !important;
+}
+
+#dev-testimonials-text {
+	font-style: italic;
+}
+
+.dev-text-align--right {
+	text-align: right !important;
+}
+
+
+/****** 	DISPLAY RULES 	******/
+
+
+.dev-display-none {
+	display: none !important;
+}
+
+
+
+

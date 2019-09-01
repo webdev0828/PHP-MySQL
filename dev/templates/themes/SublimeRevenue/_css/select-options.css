@@ -1,0 +1,94 @@
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #532B72;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #888 transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #888 transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div {
+  color: #fff;
+  background:#121212;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  user-select: none;
+      margin: 0;
+}
+.select-selected {
+  color: #fff;
+  background:#121212;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  user-select: none;
+      margin: 0 25%;
+  border-radius: 4px;
+  transition: border-color ease-in-out 0.3s,box-shadow ease-in-out 0.3s;
+}
+.select-selected:active,.select-selected.active, .select-selected:focus {
+  border-color:#532B72;
+  border: 1px solid;
+  border-color: rgba(83, 43, 114, 1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(83, 43, 114, 1);
+  outline: 1px;
+  transition: border-color ease-in-out 0.3s,box-shadow ease-in-out 0.3s;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  height:400%;
+  overflow:hidden; 
+  overflow-y:scroll;
+      margin: 0 25%;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  color:#fff;
+  background-color: #532B72;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #888 transparent transparent transparent;
+        margin: 0 25%;
+}
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #888 transparent;
+        margin: 0 25%;
+    top: 7px;
+}

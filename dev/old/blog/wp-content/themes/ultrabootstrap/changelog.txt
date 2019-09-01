@@ -1,0 +1,119 @@
+Changelog
+
+Tested up to: 4.9.7
+
+
+Version 1.1.5
+i) 		missing translation ready is added
+ii)		CSS formating and adding for the Footer Section
+iii)	Other Minor Fixes 
+
+Version 1.1.4
+i) 		Default thumbnail is removed from content-single.php
+ii)		Fixed on search page result, corrected search.php template call.
+iii)	Additional Tag Added
+Version 1.1.3
+i) 		Footer Widget is added
+ii)		Demo URL Changed
+iii)	Additional Tag Added
+Version 1.1.2
+i)		Author Permalink added in Single Post
+ii)		Date Permalink added to Single Post
+iii) 	Safari Menu Distortion is Removed
+iv) 	Default Social Link is added as #
+v) 		two-columns Tag added 
+Version 1.1.1
+i)		Screenshot Changed
+ii)		Author URI & Description Changed
+iii) 	No of Slider is Added in Slider Options
+Version 1.1.0
+i)		Parent Menu Fixed, now working 
+ii)		Customizer.js is added back
+iii) 	Header Color is Fixed , Now Changeable
+iv)		Template name is defined as Front Page
+v)		Link to Pro version is Added
+
+Version 1.0.8
+i)		fixed translation in header.php
+
+Version 1.0.7
+i)		All strings translated
+ii)		Customizer.js removed
+
+Version 1.0.6
+i)		add_theme_support('custom-header'), header image to load in index.php
+ii)		Theme tags & description modified in style.css & readme.txt
+iii)	Licensing defined for fontawesome and bootstrap
+iv)		remove the default content in customizer.php & page-home.php
+
+Version 1.0.5
+i)		Data escaped before output in page-home.php
+ii)		Data escaped  in page-home.php get_theme_mod( 'features_title', 'Featured Category' )
+iii)	WordPress functionality and features add_theme_support('custom-header')
+iv)		Add Pagination in index.php, removed ultrabootstrap_pagination_bars() in single.php
+v)		Copyright declared properly for fonts, images, navWalker, bootstrap
+vi)		Remove copyright from customizer panel
+vii)	GPL License declared in my themeshop.
+
+Version 1.0.4
+i)		Theme name corrected
+
+Version 1.0.3
+i)		Remove unnecessary commented out code.
+ii)		Remove the_posts_navigation(), the_archive_title(), the_archive_description(), they have been fixed in core.
+iii)	Remove email and phone, untrusted data from customizer.php
+iv)		Remove README.md file
+v)		.pot file renamed
+vi)		GNU General Public License information updated
+vii)	Copyright Information updated in readme.txt
+viii)	Removed copyright message of mine from footer.
+ix)		Removed ultrabootstrap_share() from functions.php
+x)		Corrected Author URI information
+xi)		esc_url and esc_attr added in all needed locations.
+xii)	custom-logo for the header
+xiii)	Irrelevant $class removed from page.php and single.php
+
+Version 1.0.2
+i)   	Remove minified css and js files
+ii)	 	Added rlt css/rtl.css and bootstrap-rtl.js/bootstrap-rtl.css files
+iii)	Changelog file added
+iv)		Clean up functions.php
+v)		Clean up js/script.js
+vi)		Removed "$wp_customize->remove_section" code in inc/customizer.php
+
+Version 1.0.1
+i)   	Remove Jquery
+ii)	 	Add Credit to the images, CSS and JS used
+iii)	Changelog file added
+iv)		Removed js/jquery.min.js
+v)		Added version detail in style.css
+
+Version 1.0.0
+i)   	Intial version Release
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

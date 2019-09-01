@@ -1,0 +1,152 @@
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide1600.gif) repeat-x !important;
+  height: 1067px !important;
+  width: 4800px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-1600px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide1400.gif) repeat-x !important;
+  height: 934px !important;
+  width: 4200px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-1400px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide1200.gif) repeat-x !important;
+  height: 800px !important;
+  width: 3600px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-1200px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide1000.gif) repeat-x !important;
+  height: 667px !important;
+  width: 3000px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-1000px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide800.gif) repeat-x !important;
+  height: 533px !important;
+  width: 2400px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-800px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide700.gif) repeat-x !important;
+  height: 467px !important;
+  width: 2100px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-700px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide600.gif) repeat-x !important;
+  height: 400px !important;
+  width: 1800px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-600px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide500.gif) repeat-x !important;
+  height: 333px !important;
+  width: 1500px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-500px, 0, 0) !important;
+  }
+}
+
+.sliding-background {
+  position:absolute !important;
+  background: url(/images/hero-bg-slide400.gif) repeat-x !important;
+  height: 267px !important;
+  width: 1200px !important;
+  animation: slide 180s linear infinite !important;
+  z-index: 1 !important;
+}
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0) !important;
+  }
+  100%{
+    transform: translate3d(-400px, 0, 0) !important;
+  }
+}

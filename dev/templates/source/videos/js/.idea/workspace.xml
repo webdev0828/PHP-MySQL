@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86355a70-f7b2-41f0-ae92-fb27dc89d3d5" name="Default" comment="" />
+    <ignored path="js.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.045454547">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../preview/multipleInstances.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme1off.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme3off.html" />
+        <option value="$PROJECT_DIR$/../../../preview/css/preview.css" />
+        <option value="$PROJECT_DIR$/../../../preview/theme4.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme4off.html" />
+        <option value="$PROJECT_DIR$/videoPlayer.js" />
+        <option value="$PROJECT_DIR$/../../deploy/js/videoPlayer.js" />
+        <option value="$PROJECT_DIR$/../../../preview/theme5.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme5off.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme3.html" />
+        <option value="$PROJECT_DIR$/../../../preview/index.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme2.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme2off.html" />
+        <option value="$PROJECT_DIR$/../../../preview/theme1.html" />
+        <option value="$PROJECT_DIR$/../../../preview/js/videoPlayer.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86355a70-f7b2-41f0-ae92-fb27dc89d3d5" name="Default" comment="" />
+      <created>1366898085955</created>
+      <updated>1366898085955</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../preview/css/preview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="19" selection-start="4365" selection-end="4365" vertical-scroll-proportion="0.3432155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme4off.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="45" selection-start="2595" selection-end="2595" vertical-scroll-proportion="0.215311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="10" selection-start="2128" selection-end="10132" vertical-scroll-proportion="0.6818182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../deploy/js/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="382" selection-start="40704" selection-end="40704" vertical-scroll-proportion="0.9560185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="35" selection-start="9780" selection-end="9780" vertical-scroll-proportion="-13.214286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme5off.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="40" selection-start="2934" selection-end="2934" vertical-scroll-proportion="-19.321428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="35" selection-start="10253" selection-end="10253" vertical-scroll-proportion="-12.214286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme3off.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="39" selection-start="2218" selection-end="2218" vertical-scroll-proportion="0.078947365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="402" selection-start="2062" selection-end="2062" vertical-scroll-proportion="0.5251196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="51" selection-start="9447" selection-end="9447" vertical-scroll-proportion="-2.0357144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme2off.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="40" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.6471292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/theme1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="2610" selection-end="2610" vertical-scroll-proportion="-20.357143" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../preview/js/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="382" selection-start="40710" selection-end="40710" vertical-scroll-proportion="0.86412394" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videoPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1353" column="22" selection-start="39109" selection-end="39120" vertical-scroll-proportion="0.02199074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.045454547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

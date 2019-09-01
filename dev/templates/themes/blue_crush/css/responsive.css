@@ -1,0 +1,953 @@
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1190px) {
+    #videoDemo .laptop iframe {
+        width: 470px;
+        height: 285px;
+        left: 127px;
+    }
+
+    #videoDemo .laptop {
+        background-size: contain;
+        height: 428px;
+    }
+
+    #whyiDev .reasonsTab .rTabs li.active a {
+        margin-right: -1px;
+        background-image: -webkit-gradient(
+                linear,
+                right bottom,
+                left bottom,
+                color-stop(0, #376AC9),
+                color-stop(1, #114090)
+        ) !important;
+        background-image: -o-linear-gradient(left, #376AC9 0%, #114090 100%) !important;
+        background-image: -moz-linear-gradient(left, #376AC9 0%, #114090 100%) !important;
+        background-image: -webkit-linear-gradient(left, #376AC9 0%, #114090 100%) !important;
+        background-image: -ms-linear-gradient(left, #376AC9 0%, #114090 100%) !important;
+        background-image: linear-gradient(to left, #376AC9 0%, #114090 100%) !important;
+    }
+
+    #header #topMenu .mainMenu li a {
+        padding: 25px 10px;
+    }
+
+    .testi-page #mainwrapper {
+        float: left;
+        width: 31%;
+    }
+
+    .testi-page .portfolioBox {
+        width: 100%;
+    }
+
+    .testi-page .scale-caption .testi-txt {
+        width: 99%;
+    }
+
+    .pd-highlight {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pd-price span {
+        font-size: 16px !important;
+    }
+
+    .pd-price {
+        padding-right: 11px !important;
+        font-size: 58px;
+        top: 18px;
+    }
+
+    .pd-name {
+        font-size: 26px !important;
+        padding-top: 21px;
+    }
+
+    .package-detail li {
+        font-size: 12px;
+        padding: 19px 7px;
+    }
+
+    .prcing-detail {
+        min-height: 166px;
+    }
+
+    .multi-page-table span.pmu-btn {
+        float: none;
+        clear: both;
+        display: block;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    .multi-page-table .pmu-btn .btn-ava {
+        display: block;
+    }
+
+    .multi-page-table .package-more-updates li {
+        text-align: center;
+    }
+
+    .fr-col {
+        margin: 30px 12px 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #header #topMenu .mainMenu li a {
+        padding: 25px 10px;
+    }
+
+    .left-bar li.active::after {
+        left: 6em;
+    }
+
+    .main-box .big {
+
+        height: 95px;
+
+        width: 95px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #features .thumb img {
+        margin: 0 auto;
+    }
+
+    .main_menu_cont {
+        float: left;
+    }
+
+    .mbmenu {
+        display: inline-block;
+    }
+
+    /*.main_menu_cont{display:block;}*/
+    .main_menu {
+        background: #264580;
+        display: none;
+        position: absolute;
+        top: 45px;
+        right: 15px;
+        min-width: 220px;
+        max-width: 220px;
+        z-index: 999999;
+        border: 5px solid #152951;
+        border-radius: 5px;
+        padding: 26px;
+    }
+
+    .main_menu:after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        right: 35px;
+        top: -14px;
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #152951;
+    }
+
+    .main_menu > li {
+        display: block !important;
+        border: 0;
+        border-bottom: 1px solid #cbcbcb !important;
+        height: auto;
+        line-height: normal;
+        min-height: 1px;
+        margin: 0;
+    }
+
+    .main_menu > li:first-child {
+        border-top: 0 !important;
+    }
+
+    .main_menu > li > a {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .mobile_none {
+        display: none;
+    }
+
+    #header .clearfix {
+        float: right
+    }
+
+    .mbmenu {
+
+    }
+
+    .mainMenu li {
+        float: none !important
+    }
+
+    .mainMenu li a {
+        color: #fff !important
+    }
+
+    #header #topMenu .mainMenu li.active, #header #topMenu .mainMenu li:hover a {
+        color: #fff !important
+    }
+
+    .main_menu > li:hover > ul.sub-menu {
+        display: block;
+    }
+
+    .main_menu > li ul.sub-menu {
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+        animation-name: submenu_anim;
+    }
+
+    #header .clearfix {
+        float: right !important;
+        margin-top: 17px;
+    }
+
+    .no-pad {
+        float: none !important;
+        padding: 5px !important;
+    }
+
+    .sep .socialPlugs.pull-right {
+        float: none !important;
+        margin: 0 auto;
+        padding: 0;
+        width: 170px;
+    }
+
+    #content .pluginsList {
+        text-align: center;
+    }
+
+    .testi-page .portfolioBox {
+        width: 300px;
+    }
+
+    .testi-page .button-group.filter-button-group button {
+
+        display: block;
+        font-size: 13px;
+        margin: 0 auto;
+        padding: 15px;
+        width: 200px;
+    }
+
+    .btn.btn-default.btn-addtocart.iner-btn {
+        margin: 0 auto
+    }
+
+    .footer-logo-section {
+        border-bottom: 1px solid #484848;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-nav-section {
+        border-right: 1px solid #484848;
+    }
+
+    #videoDemo .laptop iframe {
+        width: 440px;
+        left: 115px;
+    }
+
+    #videoDemo .laptop {
+        height: 393px;
+    }
+
+    .testi-page .portfolioBox {
+        width: 100%;
+    }
+
+    .testi-page #mainwrapper {
+        width: 47%;
+    }
+
+    .testi-page .button-group.filter-button-group button {
+        width: 100%;
+        border-radius: 3px;
+        margin-bottom: 7px;
+        border-bottom: 1px solid !important;
+    }
+
+    .testi-page .button-group.filter-button-group {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+
+    .fxd-banner-pd .breadcrumb {
+        float: left !important;
+        width: 48% !important;
+    }
+
+    .fxd-banner-pd ul.listOpts {
+        float: left !important;
+        width: 49% !important;
+        padding: 5px !important;
+    }
+
+    .fxd-banner-pd {
+        margin-top: 56px;
+    }
+
+    .multi-page-table .pct-btn-section .btn-price, .multi-page-table .pd-btn-section .btn {
+        width: 100%;
+        font-size: 15px;
+        padding: 7px 8px;
+    }
+
+    .multi-page-table .package-detail li {
+        font-size: 13px;
+    }
+
+    .prcing-detail, .package-more-updates {
+        position: relative;
+        min-height: 214px;
+    }
+
+    .package-cloud-table .pd-name span {
+        font-size: 14px;
+    }
+
+    .package-cloud-table .pd-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .package-cloud-table .pd-price {
+        padding-right: 11px !important;
+        font-size: 58px;
+        top: inherit;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .package-cloud-table .package-detail ul {
+        width: 100%;
+    }
+
+    .package-cloud-table .package-detail li {
+        text-align: center;
+        padding: 9px 7px;
+    }
+
+    .fr-col {
+        width: 124px;
+    }
+
+    .forget-link {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 800px) {
+    #sliderTabs li a {
+        font-size: 100%;
+    }
+
+    #sliderTabs {
+        top: -40px;
+    }
+
+    #sliderTabs .activeSlide::after {
+        left: 68px;
+        top: -57px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #whyiDev .container .row {
+        margin: 0
+    }
+
+    #videoDemo .laptop iframe {
+        left: 0;
+    }
+
+    #videoDemo .laptop iframe {
+        width: 100%
+    }
+
+    .main-box .big {
+        font-size: 25px;
+        height: 70px;
+        right: 0;
+        top: 0;
+        width: 70px;
+    }
+
+    .main-box .smal {
+        top: 17px;
+    }
+
+    .affiliate-tons .box-left {
+        margin-top: 108px;
+    }
+
+    #content {
+        margin-top: 94px;
+
+    }
+
+    .affiliate-tons .box-left .main-box .big i {
+        vertical-align: super;
+    }
+
+    .affiliate-tons .main-box .big i {
+        vertical-align: super;
+    }
+
+    .affiliate-tons .box-left .main-box h3 {
+        font-size: 20px;
+    }
+
+    .affiliate-tons .main-box h3 {
+        font-size: 20px;
+    }
+
+    .wel-img img {
+        margin: 0 auto
+    }
+
+    .affiliate-tons .box-left .fa-ul-caret li::before {
+        left: -15px;
+    }
+
+    #superdiv #content {
+        margin: 0
+    }
+
+    #content .box .heading .icon {
+        margin-right: 10px;
+    }
+
+    .box .heading h4 {
+        font-size: 20px;
+    }
+
+    #footer .cntHolder .btn-wire {
+        margin: 15px 7px 0 !important;
+        float: left !important;
+    }
+
+    .footer-logo-section {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #484848;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #footer .cntHolder .btn-wire {
+        background: none;
+        color: #ef6e2e;
+        border: 1px #ef6e2e solid !important;
+        margin: 15px 0 0 !important;
+        display: table;
+        margin: 7px auto !important;
+        width: 100%;
+        float: none;
+    }
+
+    .footer-newsletter-section {
+        text-align: center;
+    }
+
+    #footer .cntHolder .footer-newsletter-section .btn-wire {
+        width: 98%;
+        float: none !important;
+    }
+
+    .footer-nav-section {
+        border-bottom: 1px solid #484848;
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #footer .cntHolder .footer-nav-section ul.nav {
+        width: 100%;
+    }
+
+    #footer .cntHolder .footer-nav-section ul.nav li {
+        border-top: 1px solid #444444;
+    }
+
+    #footer .cntHolder .footer-nav-section ul.nav li a:before {
+        display: none;
+    }
+
+    .footer-logo-section {
+        border-bottom: 1px solid #484848;
+    }
+
+    .footer-nav-section {
+        border-right: 0px solid #484848;
+    }
+
+    #videoDemo .laptop {
+        background: none;
+        height: 371px;
+    }
+
+    #videoDemo .laptop iframe {
+        width: 86%;
+        margin: 0 auto;
+        float: none;
+        display: table;
+        text-align: center;
+        position: relative;
+    }
+
+    #whyiDev .reasonsTab .rTabs li {
+        width: 100%;
+        float: left;
+    }
+
+    #whyiDev .reasonsTab .rTabs li a {
+        border: 1px solid #ccc;
+        margin: 4px 0px;
+    }
+
+    #whyiDev .tab-content {
+        margin-top: 19px;
+    }
+
+    #whyiDev .reasonsTab .rTabs li [class^="idevIco-"] {
+        top: 5px;
+    }
+
+    #testimonials .slides {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .testi-page #mainwrapper {
+        width: 100%;
+    }
+
+    .fxd-banner-pd .breadcrumb {
+        float: left !important;
+        width: 35% !important;
+    }
+
+    .fxd-banner-pd ul.listOpts {
+        float: right !important;
+        width: 60% !important;
+        padding: 5px !important;
+    }
+
+    #content-iner .testimonilas-main .bg-danger {
+        font-size: 17px !important;
+        text-align: center !important;
+    }
+
+    #content-iner .testimonilas-main .bg-danger .pull-right {
+        float: none !important;
+        display: table;
+        margin: 0 auto;
+        padding-top: 4px;
+        font-size: 15px;
+    }
+
+    #content-iner .testimonilas-main .col-md-10 {
+        padding-left: 15px;
+    }
+
+    #content-iner .testimonilas-main h2 {
+        text-align: center;
+    }
+
+    #content-iner .testimonilas-main h4 {
+        text-align: center;
+    }
+
+    .account-section {
+        clear: both;
+    }
+
+    .package-cloud-table {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .prcing-detail, .package-more-updates {
+        width: 100%;
+        position: relative;
+        min-height: auto !important;
+        text-align: center;
+    }
+
+    .package-cloud-table .pd-price {
+        position: relative;
+        float: none;
+        display: table;
+        width: 134px;
+        margin: 0 auto;
+    }
+
+    .package-detail {
+        width: 100%;
+    }
+
+    .multi-page-table {
+        width: 400px;
+        margin: 0 auto;
+        display: table;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .fr-col {
+        width: 32%;
+        margin: 0 auto;
+        margin-bottom: 33px;
+    }
+
+    .text {
+        height: 30px;
+    }
+
+    .pricing-page .listOpts li {
+        padding: 0px 12px 10px 9px;
+        float: left;
+    }
+
+    .fxd-banner-pd ul.listOpts {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .fxd-banner-pd .breadcrumb {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .forget-link {
+        top: 10px;
+    }
+
+    #whyiDev .reasonsTab .tab-pane .info {
+        text-align: center;
+    }
+
+    .pricingBar, .pricingBar * {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .affiliate-tons {
+        display: none !important;
+    }
+
+    #content-iner .testimonilas-main .bg-danger {
+        font-size: 12px;
+    }
+
+    .bnr-btn {
+        /*   display: none;*/
+    }
+}
+
+@media screen and (max-width: 667px) {
+    #header.fixed {
+        position: absolute;
+    }
+
+    .seo-links .detail-top {
+        margin-top: 0;
+    }
+
+    #footer .sep .ftNav {
+        text-align: center;
+    }
+
+    #footer .cntHolder .btn-wire {
+        float: left !important;
+        margin: 15px 8px 0 !important;
+    }
+
+    #sliderTabs li {
+        width: 130px;
+    }
+
+    #sliderTabs {
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container.cntHolder .nav {
+        width: 100%
+    }
+
+    #content-iner .testimonilas-main .bg-danger {
+        font-size: 10px;
+    }
+
+    .affi-txt p {
+        font-size: 12px;
+    }
+
+    .affi-txt ul li {
+        font-size: 10px;
+    }
+
+    .idevaffi .affi-txt h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ftNav.pull-left li:first-child a {
+        padding-left: 0 !important
+    }
+
+    #sliderTabs li {
+        width: 100px;
+    }
+
+    #sliderTabs {
+        top: -80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .shop-cart .button-group.filter-button-group .button {
+        display: block;
+        margin: 4px;
+
+    }
+
+    #sliderTabs li {
+        width: 75px;
+    }
+
+    #sliderTabs li a {
+        font-size: 80%;
+    }
+
+    #sliderTabs {
+        top: -68px;
+    }
+
+    #logo {
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav#topMenu {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mbmenu {
+        width: 100%;
+        text-align: left;
+    }
+
+    #header .clearfix {
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+
+    #footer .sep .ftNav li a {
+        padding: 18px 10px 0px;
+    }
+
+    #mainBanner {
+        padding: 112px 0 0;
+    }
+
+    .fxd-banner-pd {
+        margin-top: 117px;
+    }
+
+    .multi-page-table, .package-cloud-table {
+        width: 95%;
+    }
+
+    .fr-col {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 33px;
+    }
+
+    .pct-btn-section {
+        width: 80%;
+    }
+
+    .pct-btn-section .btn {
+        font-size: 15px !important;
+    }
+
+    #cloud-package-section h1 {
+        font-size: 36px;
+    }
+
+    .bs-col-crmb, .bs-col-btn {
+        width: 100%;
+    }
+
+    .bs-col-btn a.btn.btn-danger.pull-right {
+        float: left !important;
+        width: 100%;
+    }
+
+    #header.fixed {
+        position: relative;
+    }
+
+    .five-reasons {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #header .clearfix {
+        float: none !important;
+        text-align: center;
+    }
+
+    .main_menu {
+        background: #264580 none repeat scroll 0 0;
+        border: 5px solid #152951;
+        border-radius: 5px;
+        display: none;
+        left: 22px;
+        max-width: 220px;
+        min-width: 220px;
+        padding: 26px;
+        position: absolute;
+        right: 0;
+        top: 87px;
+        z-index: 999999;
+    }
+
+    #innerBanner.frdBanner {
+        margin-top: 30px;
+    }
+
+    #innerBanner.frdBanner.plug {
+        margin-top: 50px;
+    }
+
+    .testi-page .portfolioBox {
+        width: 250px;
+    }
+
+    .cnt.col-md-7.wow.bounceInLeft {
+        margin-top: 30px;
+    }
+
+    .table-responsive .text-center p {
+        float: left !important;
+    }
+
+    .container.req {
+        margin-top: 20px;
+    }
+
+    .seo-links .ad-cart {
+        float: left;
+        padding: 5px 105px 15px 0;
+    }
+
+    #sliderTabs li {
+        width: 55px;
+    }
+
+    #sliderTabs li a {
+        padding: 1px;
+    }
+
+    #sliderTabs {
+        top: -50px;
+    }
+
+    .testi-page .scale-caption .testi-txt h5 {
+        margin-left: 12px;
+    }
+
+    .testi-page .scale-caption img {
+        display: none;
+    }
+
+    #innerBanner.frdBanner.plug {
+        margin-top: 100px;
+    }
+
+    .forget-link {
+        top: 0px;
+    }
+
+    a.btn.btn-info.pull-right {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .or {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    .prd-list-mn-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+}
+
+@media screen and (max-width: 320px) {
+    #whyiDev .cnt .heading {
+        font-size: 40px;
+    }
+
+    #innerBanner.frdBanner .usrOpts, #innerBanner.frdBanner .usrOpts * {
+        float: left;
+
+    }
+
+    .shop-cart .button-group.filter-button-group .button:hover {
+        margin-top: 5px;
+    }
+
+    .shop-cart .button-group.filter-button-group .button {
+        margin-top: 5px;
+    }
+
+    .container.affi-txt {
+        margin-top: 50px;
+    }
+
+}

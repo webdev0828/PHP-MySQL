@@ -1,0 +1,45 @@
+/*!
+Theme Name: AzonBooster
+Theme URI: https://boosterwp.com/themes/azonbooster
+Author: BoosterWP Team
+Author URI: https://boosterwp.com
+Description: The best free Amazon Affiliate theme double up your sales and conversion rate. AzonBooster is a fast, lightweight, mobile responsive theme built with speed, SEO friendly, and usability in mind. AzonBooster can serve as a solid base for any website and works great with any of your favorite page builders. With an emphasis on WordPress coding standards, we ensure AzonBooster is compatible with all well-coded plugins, including major ones like Amazon Associates Link Builder, EazyAzon, WPML, BuddyPress and bbPress. Check new featurs here: https://boosterwp.com/azonbooster/
+Version: 1.3.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: azonbooster
+Tags: two-columns, custom-background, custom-header, custom-menu, blog, news, featured-image-header, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, one-column, left-sidebar, right-sidebar, three-columns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+AzonBooster is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+
+// Bourbon
+// See: http://bourbon.io/docs/
+@import 'bourbon';
+
+// Susy
+// Susy grid system. See: http://susydocs.oddbird.net/en/latest/
+@import 'node_modules/susy/sass/susy';
+
+// Vendors
+// External libraries and frameworks.
+@import 'assets/sass/vendors/normalize';
+@import 'assets/sass/vendors/modular-scale';
+
+// Utilities
+// Sass tools and helpers used across the project.
+@import 'assets/sass/utils/variables';
+@import 'assets/sass/utils/mixins';
+
+// Base
+// Includes all the main AzonBooster css.
+@import 'assets/sass/base/base';
+@import 'assets/sass/base/layout';
+@import 'assets/sass/base/homepage';

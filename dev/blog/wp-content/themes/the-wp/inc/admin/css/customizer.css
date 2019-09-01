@@ -1,0 +1,87 @@
+.the-wp-widgets-cart {
+	width:100%;
+	min-height:494px;
+	display:block;
+	background-image:url(../images/the-wp-widgets-cart.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.wrap .buy-pro, .wrap .description.customize-section-description a {
+	background: #00c1cf;
+	color: white;
+	padding: 2px 7px;
+	display: inline-block;
+	margin-top: 10px;
+	border-radius: 2px;
+}
+.customize-sep-title {
+	font-size:16px;
+	color:#09F;
+}
+.customize-sep-title:before {
+	content:"\f0fe ";
+	font-family: 'FontAwesome';
+	font-size:18px;
+	padding-right:10px;
+	color:#09F;
+}
+.accordion-section-content .dinozoom {
+	display:block;
+	width: 0 auto;
+}
+.ceewp-premium {
+	color:#09F;
+	float: right;
+	display:inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+.ceewp-premium i {
+	color:#09F;
+}
+li#accordion-panel-the-wp > h3.accordion-section-title {
+	color:#C00;
+}
+li#accordion-panel-the-wp > h3:before {
+	content:"\f108 ";
+	font-family: 'FontAwesome';
+	font-size:18px;
+	padding-right:10px;
+	color:#09F;
+}
+/* Buttons */
+.ceewp-upgrade {
+	display:inline-block;
+	margin:2px;
+}
+.ceewp-upgrade i {
+	margin-right:6px;
+}
+.ceewp-howdy {
+	padding:5% 2%;
+	border:#CCC 1px solid;
+	border-radius:5px;
+	color:#333;
+	font-size:0.8rem;
+}
+.ceewp-howdy span {
+	color:#F06;
+	text-decoration:underline;
+}
+.ceewp-upgrade a.btn-upgrade {
+	background: none #5cb85c;
+	border-color: #4cae4c;
+	box-shadow: none;
+	color: #fff;
+	margin-top: 10px;
+}
+.ceewp-upgrade a.btn-upgrade:hover,
+.ceewp-upgrade a.btn-upgrade:focus  {
+	background: none #449d44;
+	border-color: #398439;
+	box-shadow: none;
+	color: #fff;
+}
+
+
